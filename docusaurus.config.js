@@ -22,6 +22,7 @@ const config = {
   //organizationName: 'PlanetX-Labs', // Usually your GitHub org/user name.
   organizationName: 'PlanetX-Labs',
   projectName: 'Documentation', // Usually your repo name.
+  trailingSlash: false, //used for Github pages specifically
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
