@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PlanetX Labs Documentation',
-  tagline: 'Learn how to use the PlanetX Labs',
+  title: 'Welcome to the Dasset documentation site',
+  tagline: 'Learn how to use Dasset to safely store and share your data',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -60,10 +60,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'PlanetX Labs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/pxlogomark_white.png',
         },
         items: [
           {
@@ -72,7 +72,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'adsf', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PlanetX Labs`,
       },
       prism: {
         theme: lightCodeTheme,
