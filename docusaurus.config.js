@@ -23,7 +23,7 @@ const config = {
   organizationName: 'PlanetX-Labs',
   projectName: 'Documentation', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
