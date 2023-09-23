@@ -4,32 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Designed for Humans',
+    title: 'Take Control of Your Data',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Dasset is designed with you in mind.  Whether on your PC, Mac or mobile phone,
-        access your data wherever you are without complexity.
+        Dasset frees you from the dilemma of having your data spread across multiple devices
+        and clouds.  You own your data, not a 3rd party cloud provider.
+
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Keeping Your Data Safe',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        With a few clicks, Dasset ensures your data is safely backed-up from all of your devices
+        and clouds.  
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Access from Anywhere',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your gsdfgdwfgsdfgsdfgwebsite layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Whether you are next to your Dasset server, or half-way across the world, getting access to
+        your data on Dasset is not only easy, but secure through SDN/SDVN technology.
       </>
     ),
   },

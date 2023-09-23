@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to the Dasset documentation site',
-  tagline: 'Learn how to use Dasset to safely store and share your data',
+  title: 'Welcome to the Dasset documentation!',
+  tagline: 'Learn how to use Dasset',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,10 +62,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'PlanetX Labs',
+        // title: 'PlanetX Labs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/pxlogomark_white.png',
+          src: 'img/PXL_cutout_lockup_darktext.svg',
+          srcDark: 'img/PXL_cutout_lockup_white.svg'
         },
         items: [
           {
@@ -76,7 +77,7 @@ const config = {
           },
           // {to: '/blog', label: 'adsf', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/PlanetX-Labs/planetx-labs.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,16 +99,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/planetxlabs',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/planetx_labs',
               },
             ],
           },
@@ -115,12 +112,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'PlanetX Labs',
+                href: 'https://planetxlabs.io',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/PlanetX-Labs',
               },
             ],
           },
