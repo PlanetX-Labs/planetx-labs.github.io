@@ -6,21 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to the Dasset documentation!',
+  title: 'Dasset documentation',
   tagline: 'Learn how to use Dasset',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  // url: 'https://planetx-labs.github.io',
   url: 'https://docs.planetxlabs.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  // baseUrl: '/Documentation/',
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  //organizationName: 'PlanetX-Labs', // Usually your GitHub org/user name.
   organizationName: 'PlanetX-Labs',
   projectName: 'Documentation', // Usually your repo name.
   trailingSlash: false, //used for Github pages specifically
@@ -60,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/PXL_cutout_lockup_darktext.svg',
       navbar: {
         // title: 'PlanetX Labs',
         logo: {
@@ -83,6 +78,14 @@ const config = {
           },
         ],
       },
+      //announcementBar: {
+      //  id: 'support_us',
+      //  content:
+      //    'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+      //  backgroundColor: '#fafbfc',
+      //  textColor: '#091E42',
+      //  isCloseable: false,
+      //},
       footer: {
         style: 'dark',
         links: [
