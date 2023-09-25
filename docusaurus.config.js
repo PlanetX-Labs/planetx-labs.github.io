@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dasset documentation',
-  tagline: 'Learn how to use Dasset',
+  title: 'Dasset Documentation',
+  tagline: 'Your one-stop shop for learning how to use Dasset',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -15,8 +15,7 @@ const config = {
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PlanetX-Labs',
+   organizationName: 'PlanetX-Labs',
   projectName: 'Documentation', // Usually your repo name.
   trailingSlash: false, //used for Github pages specifically
 
@@ -57,9 +56,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/PXL_cutout_lockup_darktext.svg',
       navbar: {
-        // title: 'PlanetX Labs',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'PlanetX Labs Logo',
           src: 'img/PXL_cutout_lockup_darktext.svg',
           srcDark: 'img/PXL_cutout_lockup_white.svg'
         },
@@ -68,7 +67,8 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
+            to: '/docs'
           },
           // {to: '/blog', label: 'adsf', position: 'left'},
           {
@@ -90,11 +90,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Content',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentation',
+                to: '/docs/getting-started/intro',
               },
             ],
           },

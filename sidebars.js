@@ -23,11 +23,16 @@ const sidebars = {
     'hello',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Documentation',
+      items: ['getting-started/intro'],
+    },
+    {
+      type: 'category',
+      label: 'API',
+      items: ['api/api'],
     },
   ],
-   */
+  */
 };
 
 module.exports = sidebars;
