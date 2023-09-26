@@ -15,12 +15,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Keeping Your Data Safe',
+    title: 'Keep Your Data Safe',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        With a few clicks, Dasset ensures your data is safely backed-up from all of your devices
-        and clouds.  
+        Your data is more than just files - your data is your asset.  Dasset protects your data
+        by keeping it synchronized and backed-up across devices and clouds, ensuring your data is
+        safe.    
       </>
     ),
   },
