@@ -59,8 +59,8 @@ const config = {
         title: '',
         logo: {
           alt: 'PlanetX Labs Logo',
-          src: 'img/PXL_cutout_lockup_darktext.svg',
-          srcDark: 'img/PXL_cutout_lockup_white.svg'
+          src: 'img/dasset_dark.svg',
+        //  srcDark: 'img/dasset_light.svg'
         },
         items: [
           {
