@@ -11,7 +11,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const imgUrl = useBaseUrl('img/dassetlogo.png');
+  const imgUrl = useBaseUrl('img/dasset_color.png');
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/getting-started/intro">
-            What is Dasset? - 5min ⏱️
+            Start here
           </Link>
         </div>
       </div>

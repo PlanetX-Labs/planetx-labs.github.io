@@ -4,79 +4,86 @@ sidebar_position: 1
 
 # Introduction
 
-The amount of data we generate continues to grow on a daily basis, a trend which will only
-increase as technology continues to evolve (higher-pixel pictures/video, devices connected
-to our home networks, etc).  While the cloud may seem like an easy way to store all of this
-data, there are challenges that may not seem apparent at first, but become more obvious the
-more data you have to store:
+## What is Data Ownership?
 
-1. Accessing data stored in the cloud isn't fast.  Want to edit a 4GB video quickly?  You'll 
+The amount of data we generate daily is growing at astronomical rates.  Technological
+advances are what's behind this explosion in data generation.  Cameras in phones continue
+to increase in quality.  Home devices, such as doorbell cameras and smart home appliances,
+generate video and usage pattern data.  The digital footprint we are generating is not only
+exploding in size, but the ownership and usage of that data is in question.
+
+You should own, and have complete control, over your data.  It's a simple concept, but one
+that is not fully realized with existing data storage solutions.  While the cloud may seem like
+an easy way to store all of this data, there are challenges that may not seem apparent at first,
+but become more obvious the more data you have to store:
+
+* 🐢 Accessing data stored in the cloud isn't fast.  Want to edit a 10GB video quickly?  You'll 
    need to download it first. 
-2. It's not as cheap as you think.  Most cloud vendors offer free storage - to a point.  Once
+
+* 💵  It's not as cheap as you think.  Most cloud vendors offer free storage - to a point.  Once
    you need more, you're subject to monthly subscription charges.
 
-**Dasset** is a smart data storage solution designed to bring all of your data together.  With
-a user experience designed for everyone, you don't need to be technical to use Dasset.  The
-software that powers Dasset consists of the following:
+* 🔐 Storing your data in the cloud means you're giving control over to the cloud provider.
 
-* **Dasset server operating system and firmware** used to power your Dasset server.
-* **Dasset client application** used to access your Dasset server.
+The only solution to complete control over your data is to have it all on a device that you own.
+But keeping all of your data on your device is a challenge.  Most PCs don't come with enough storage
+for the amount of data we have.  Adding additional storage to your computer isn't easy, is prone
+to failure, and difficult to manage as your data is spread across multiple drives.
 
-## Server OS & Firmware
+The solution is a storage device, connected to home or business network, that has the capacity
+to store all of your data, with the ability to easily secure and share that data with others.
 
-The magic behind storing your data safely and sharing securely with others is powered by the Dasset
-server operating system and associated firmware.  Devices running the Dasset server software
-components are provided by computer manufacturers
+## Data as an Asset
 
-:::info
+The primary purpose of our data is to derive value from the information the data contains.  When
+we look at our photos and videos, we have the ability to relive moments of our lives.  We gain
+insight into planning for our future when we access our financial files.  We are able to make a
+living when we access the data we use for our livlihood.
 
-Computer manufacturers are currently building Dasset servers.  Check back soon for direct links
-to where you can purchase your Dasset server!
+But our data is more than our legacy - **it's our asset.**  And today we're not benefitting from the
+ability to monetize these assets.  Instead, other parties are doing so.  And usually without us
+even realizing it's happening.
 
-:::
+### 🧬 Example - Our DNA 
 
-Dasset servers are **headless**, meaning that they do not connect to a computer monitor, keyboard or
-mouse.  Instead, you interact with the Dasset server through the Dasset client application.
+It may seem tempting to use one of the services that sends you a home kit to swab your DNA and send it
+back in for analysis.  You get a nice report of your ancestral traits, whether you have genes known
+for certain diseases or even if you're prone to like or dislike the taste of cilantro.
 
-### Features
-What you can do with Dasset goes beyond just file storage and data sharing.  The below table are
-just some of the capabilities of Dasset:
+In exchange for this nice report, you give rights to the company to use your genetic information.
+They, in turn, can offer it to research laboratories interested in specific genes you may posses - 
+in exchange for a fee.  The company is making money off of your genetic information.  You've given
+them rights to do so.
 
-| Feature                   | Details                                                   |
-|:--------------------------|:----------------------------------------------------------|
-| LVM, RAID 0,1,5,6         | HW-based data protection for HDDs                         |
-| Quiet operation           | Thermal-based, low-rpm fan                                |
-| User management           | Ability to invite others to access and use your server    |
-| Adaptive power management | Options to shut down and restart based on timers or usage |
+### 🖊️ Example - AI & WGA 
 
+The recent agreement between the Writer's Guild of America (WGA) and the Alliance of Motion Picture and
+Television Producers (AMPTP) highlights how the technological advances in Artificial Intelligence (AI) can
+have a devastating impact on the value of a Writer's data.  
 
-## Client Application
+For a quick read on this topic, see the following blog written by PlanetX Lab's Co-Founder: 
 
-The Dasset client application is your primary interface to configure and access your Dasset server.
-Additionally, you use the Dasset client application to store, retrieve, protect and share your data
-with others.
+* [**Writer’s Strike - A Lesson in “Data as an Asset” in the Age of AI**](https://www.linkedin.com/pulse/writers-strike-lesson-data-asset-age-ai-jane-cui).
 
-The Dasset client application will be available to download soon, supporting the following operating
-systems:
+## Own your Data with Dasset
+It's time we take back control of our data from 3rd parties.  The first step in this journey is to
+ensure your data is under your control.  
 
-* Android (phones, tablets and Android-based TVs)
-* iOS (iPhone and iPad)
-* Windows
-* Macintosh
+**Dasset** is a smart storage solution that brings all of your data together, in one location,
+under **your** control.  Here are just a few things that Dasset can do for you:
 
-### Features
-What you can do with Dasset goes beyond just file storage and data sharing.  The below table are
-just some of the capabilities of Dasset:
+* Connects to your cloud storage and synchronizes your data to your Dasset server.
+* Built-in Virtual Private Network (VPN), enabling you to access your data from anywhere in the world, securely.
+* Share a file, a folder, or your entire Dasset server with others.
+* Connect to your Dasset server using the Dasset application, or through your native file explorer in Windows or MacOS.
+* Backs-up data from PCs or Macs on your network to the Dasset server.
+* and much more!
 
-| Feature               | Details                                                   |
-|:----------------------|:----------------------------------------------------------|
-| File Synchronization  | Synchronize files from your client device to the server & vice-versa |
-| File Sharing          | Share files with anyone, including download limits and expiration date |
-| Quota Management      | Set the amount of storage others can use on your server    |
-| SMB Sharing | Connect your PC directly to the server as a mapped network drive |
-| File Indexing | Quickly search for files on your server |
-| Cloud Sync | Synchronize your files stored in cloud providers to the server |
-| Docker | Host your own Docker containers on the server |
-| Secure Anywhere Access | Access your files on the server from any internet location using the built-in VPN |
-| File De-Duplication | Search for, and remove, duplicate files on the server |
-| DLNA | Broadcast your server on your local network for devices such as TVs to see and access content |
+## How do I get Dasset?
+The team at PlanetX Labs are currently working with major computer manufacturers to build Dasset
+servers.  We anticipate Dasset servers being available for purchase in 2024.
+
+Want to be notified when Dasset servers are available for purchase?  Fill out the form below and
+you'll be contacted with details on how to get your own Dasset server.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtX7WZZVRzevYeOTuLcb464uSryYoYqXcFWFas5PJrctFvWA/viewform?embedded=true" width="640" height="493" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

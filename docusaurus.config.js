@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dasset Documentation',
-  tagline: 'Your one-stop shop for learning how to use Dasset',
+  title: 'Dasset',
+  tagline: 'Get started owning your data today',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -54,12 +54,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/PXL_cutout_lockup_darktext.svg',
+      image: 'img/dasset_wordmark.svg',
       navbar: {
         title: '',
         logo: {
           alt: 'PlanetX Labs Logo',
-          src: 'img/dasset_dark.svg',
+          src: 'img/dasset_wordmark.svg',
         //  srcDark: 'img/dasset_light.svg'
         },
         items: [
