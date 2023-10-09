@@ -29,14 +29,15 @@ mouse.  Instead, you interact with the Dasset server through the Dasset client a
 your home network or even the internet.
 
 ### Features
-What you can do with Dasset goes beyond just file storage and data sharing.  The below table are
-just some of the capabilities of Dasset server:
+Dasset servers are designed to blend in with your everyday life.  An appliance, like any other in
+in your home, should be attractive, quiet and reliable.  Below are some of the features of the
+Dasset server:
 
 | Feature                   | Details                                                   |
 |:--------------------------|:----------------------------------------------------------|
 | LVM, RAID 0,1,5,6         | Options to configure the HDDs in your server to protect against failure        |
 | Quiet operation           | Thermal-based, low-rpm fan                                |
-| User management           | Ability to invite others to access and use your server    |
+| Tool-free maintenance     | Adding or removing HDDs can be done without tools         |
 | Adaptive power management | Options to shut down and restart based on timers or usage |
 
 
@@ -62,6 +63,7 @@ just some of the capabilities of Dasset:
 |:----------------------|:----------------------------------------------------------|
 | File Synchronization  | Synchronize files from your client device to the server & vice-versa |
 | File Sharing          | Share files with anyone, including download limits and expiration date |
+| User management       | Ability to invite others to access and use your server    |
 | Quota Management      | Set the amount of storage others can use on your server    |
 | SMB Sharing | Connect your PC directly to the server as a mapped network drive |
 | File Indexing | Quickly search for files on your server |

@@ -38,7 +38,7 @@ to store all of your data, with the ability to easily secure and share that data
 The primary purpose of our data is to derive value from the information the data contains.  When
 we look at our photos and videos, we have the ability to relive moments of our lives.  We gain
 insight into planning for our future when we access our financial files.  We are able to make a
-living when we access the data we use for our livlihood.
+living when we access the data we use for our livelihood.
 
 But our data is more than our legacy - **it's our asset.**  And today we're not benefitting from the
 ability to monetize these assets.  Instead, other parties are doing so.  And usually without us
