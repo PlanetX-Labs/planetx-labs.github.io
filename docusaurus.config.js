@@ -54,12 +54,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/dasset_wordmark_full.svg',
+      image: 'img/dasset_wordmark.svg',
       navbar: {
         title: '',
         logo: {
           alt: 'Dasset Logo',
-          src: 'img/dasset_wordmark_full.svg',
+          src: 'img/dasset_wordmark.svg',
         //  srcDark: 'img/dasset_light.svg'
         },
         items: [

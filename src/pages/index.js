@@ -11,7 +11,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const imgUrl = useBaseUrl('img/dasset_white.png');
+  const imgUrl = useBaseUrl('img/dasset_white_logomark_200x200.png');
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
