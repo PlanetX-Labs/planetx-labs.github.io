@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Dasset',
-  tagline: 'Get started owning your data today',
+  tagline: 'Your data is your asset',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -49,17 +49,17 @@ const config = {
       }),
     ],
   ],
-
+//change
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/dasset_wordmark.svg',
+      image: 'img/dasset_wordmark_new_blue.svg',
       navbar: {
         title: '',
         logo: {
           alt: 'Dasset Logo',
-          src: 'img/dasset_wordmark.svg',
+          src: 'img/dasset_wordmark_new_blue.svg',
         //  srcDark: 'img/dasset_light.svg'
         },
         items: [
@@ -125,6 +125,14 @@ const config = {
             ],
           },
         ],
+/*        logo: {
+          alt: 'PlanetX Labs',
+          src: 'img/PXL_cutout_lockup_white.png',
+          href: 'https://planetxlabs.io',
+          width: 300,
+          height: 63,
+        },
+*/
         copyright: `Copyright © ${new Date().getFullYear()} PlanetX Labs`,
       },
       prism: {
