@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Take Control of Your Data',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/datainsomanyplaces_2.svg').default,
     description: (
       <>
         Dasset frees you from the dilemma of having your data spread across multiple devices
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Keep Your Data Safe',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/somuchsafety.svg').default,
     description: (
       <>
         Your data is more than just files - your data is your asset.  Dasset protects your data
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Access from Anywhere',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/dataanywhere_3.svg').default,
     description: (
       <>
         Whether you are next to your Dasset server, or half-way across the world, getting access to
