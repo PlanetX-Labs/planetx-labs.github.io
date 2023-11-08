@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Introduction
 
-## What is Data Ownership?
+## Are you in control of your data?
 
 The amount of data we generate daily is growing at astronomical rates.  Technological
 advances are what's behind this explosion in data generation.  Cameras in phones continue
 to increase in quality.  Home devices, such as doorbell cameras and smart home appliances,
-generate video and usage pattern data.  The digital footprint we are generating is not only
-exploding in size, but the ownership and usage of that data is in question.
+generate video and usage pattern data.  As our digital footprint grows, we struggle with the
+ability to easily find what we're looking for.
 
 You should own, and have complete control, over your data.  It's a simple concept, but one
 that is not fully realized with existing data storage solutions.  While the cloud may seem like
@@ -33,39 +33,37 @@ to failure, and difficult to manage as your data is spread across multiple drive
 The solution is a storage device, connected to home or business network, that has the capacity
 to store all of your data, with the ability to easily secure and share that data with others.
 
-## Data as an Asset
+## Your data is your asset
 
-The primary purpose of our data is to derive value from the information the data contains.  When
-we look at our photos and videos, we have the ability to relive moments of our lives.  We gain
-insight into planning for our future when we access our financial files.  We are able to make a
-living when we access the data we use for our livelihood.
+The primary purpose of your data is to derive value from the information the data contains.  When
+you look at your photos and videos, you have the ability to relive moments of your life.  You gain
+insight into planning for your future when you access your financial files.  You are able to make
+a living when you access the data you use for your livelihood.
 
-But our data is more than our legacy - **it's our asset.**  And today we're not benefitting from the
-ability to monetize these assets.  Instead, other parties are doing so.  And usually without us
-even realizing it's happening.
+But your data is more than your legacy - **it's your asset.**  And today you're not benefitting
+from the ability to monetize those assets.  Instead, other parties are doing so.  And usually without you even realizing it's happening.
 
-### 🧬 Example - Our DNA 
+### 🧬 Example - Your DNA 
 
-It may seem tempting to use one of the services that sends you a home kit to swab your DNA and send it
-back in for analysis.  You get a nice report of your ancestral traits, whether you have genes known
-for certain diseases or even if you're prone to like or dislike the taste of cilantro.
+It may seem tempting to use one of the services that sends you a home kit to swab your DNA and send it back in for analysis.  You get a nice report of your ancestral traits, whether you have 
+genes known for certain diseases or even if you're prone to like or dislike the taste of cilantro.
 
 In exchange for this nice report, you give rights to the company to use your genetic information.
-They, in turn, can offer it to research laboratories interested in specific genes you may posses - 
-in exchange for a fee.  The company is making money off of your genetic information.  You've given
-them rights to do so.
+They, in turn, can offer it to research laboratories interested in specific genes you may posses
+- in exchange for a fee.  The company is making money off of your genetic information.  You've
+given them rights to do so.
 
 ### 🖊️ Example - AI & WGA 
 
-The recent agreement between the Writer's Guild of America (WGA) and the Alliance of Motion Picture and
-Television Producers (AMPTP) highlights how the technological advances in Artificial Intelligence (AI) can
-have a devastating impact on the value of a Writer's data.  
+The recent agreement between the Writer's Guild of America (WGA) and the Alliance of Motion 
+Picture and Television Producers (AMPTP) highlights how the technological advances in Artificial
+Intelligence (AI) can have a devastating impact on the value of a Writer's data.  
 
 For a quick read on this topic, see the following blog written by PlanetX Lab's Co-Founder: 
 
-* [**Writer’s Strike - A Lesson in “Data as an Asset” in the Age of AI**](https://www.linkedin.com/pulse/writers-strike-lesson-data-asset-age-ai-jane-cui).
+#### [**Beyond the Writer's Strike: Real-World Cases Highlighting "Data as an Asset"**](https://www.planetxlabs.io/news-and-articles/beyond-the-writers-strike-real-world-cases-highlighting-data-as-an-asset)
 
-## Own your Data with Dasset
+## Own your data with Dasset
 It's time we take back control of our data from 3rd parties.  The first step in this journey is to
 ensure your data is under your control.  
 
