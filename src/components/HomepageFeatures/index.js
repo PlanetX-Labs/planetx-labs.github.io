@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Take Control of Your Data',
-    Svg: require('@site/static/img/datainsomanyplaces_2.svg').default,
+    Svg: require('@site/static/img/control-your-data.svg').default,
     description: (
       <>
         Dasset frees you from the dilemma of having your data spread across multiple devices
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Access from Anywhere',
-    Svg: require('@site/static/img/dataanywhere_3.svg').default,
+    Svg: require('@site/static/img/access-data-anywhere.svg').default,
     description: (
       <>
         Whether you are next to your Dasset server, or half-way across the world, getting access to
