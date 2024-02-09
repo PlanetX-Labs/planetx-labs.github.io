@@ -22,7 +22,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/getting-started/intro">
-            Start here
+            Get started
           </Link>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={` ${siteConfig.title}`}
-      description="Get started owning your data today.">
+      description="Bring your data together with DASSET.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

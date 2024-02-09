@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Take Control of Your Data',
+    title: 'Your Data, Your Device',
     Svg: require('@site/static/img/control-your-data.svg').default,
     description: (
       <>

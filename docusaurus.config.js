@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Dasset',
-  tagline: 'Your data is your asset',
+  tagline: 'Bring your data together with DASSET',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -54,12 +54,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/dasset_wordmark_new_blue.svg',
+      image: 'img/dasset_color_wordmark_11202023.svg',
       navbar: {
         title: '',
         logo: {
           alt: 'Dasset Logo',
-          src: 'img/dasset_wordmark_new_blue.svg',
+          src: 'img/dasset_color_wordmark_11202023.svg',
         //  srcDark: 'img/dasset_light.svg'
         },
         items: [
