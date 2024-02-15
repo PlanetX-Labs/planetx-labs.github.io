@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/control-your-data.svg').default,
     description: (
       <>
-        Dasset frees you from the dilemma of having your data spread across multiple devices
+        DASSET Data Hub frees you from the dilemma of having your data spread across multiple devices
         and clouds.  You own your data, not a 3rd party cloud provider.
 
       </>
@@ -19,9 +19,8 @@ const FeatureList = [
     Svg: require('@site/static/img/somuchsafety.svg').default,
     description: (
       <>
-        Your data is more than just files - your data is your asset.  Dasset protects your data
-        by keeping it synchronized and backed-up across devices and clouds, ensuring your data is
-        safe.    
+        Your data is more than just files - your data is your asset.  DASSET Data Hub protects your data
+        by keeping it synchronized and backed-up across devices and clouds.    
       </>
     ),
   },
@@ -30,8 +29,8 @@ const FeatureList = [
     Svg: require('@site/static/img/access-data-anywhere.svg').default,
     description: (
       <>
-        Whether you are next to your Dasset server, or half-way across the world, getting access to
-        your data on Dasset is not only easy, but secure through SDN/SDVN technology.
+        DASSET Instant Connect ensures you can connect to your Data Hub from half-way across the world
+        as easily as if you were sitting right next to it.
       </>
     ),
   },

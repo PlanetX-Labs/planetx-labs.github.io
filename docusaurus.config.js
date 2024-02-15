@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dasset',
-  tagline: 'Bring your data together with DASSET',
+  title: 'DASSET Docs',
+  tagline: 'Home data storage for everyone',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
