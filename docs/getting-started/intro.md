@@ -24,13 +24,13 @@ The average person generates a whopping **147 gigabytes (GB) of data daily**. At
 
 ## Making our data work for us
 
-Getting a handle on this digital data dilemma is more than just being able to find and easily control our digital footprint.  Our data needs to work for us, giving us insights into our lives by analyzing and presenting relevant information that we can use to improve our daily life.  We need to transition from the model of digging through file folders to find that picture of our child on vacation riding a horse, to a simple query like:
+Getting a handle on this digital data dilemma is more than just being able to find and easily control our digital footprint.  Our data needs to work for us, giving us insights into our lives by analyzing and presenting relevant information that we can use to improve our daily life.  We need to transition from the model of digging through file folders to find that picture of our child on vacation in Cambodia riding a horse, to a simple query like:
 
 `🔍Show me highlights of our vacation in Cambodia` 
 
 We should be presented with pictures, a map with locations visited along with historical facts of the sites visited.  It might also show me information of my great-grandmother's visit to Cambodia in 1920 and that we visited the same sites.  
 
-And of course, it shows me that picture of Avery riding a horse.
+And of course, it shows me that picture of Avery riding a horse at Angkor Wat, Cambodia.
 
 <img src={require("./avery-horse-cambodia.jpg").default} style={{transform:'scale(.80)'}} />
 
