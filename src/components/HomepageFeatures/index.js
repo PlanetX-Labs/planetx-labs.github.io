@@ -4,23 +4,22 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Your Data, Your Device',
+    title: 'Bring Your Data Together',
     Svg: require('@site/static/img/control-your-data.svg').default,
     description: (
       <>
-        DASSET Data Hub frees you from the dilemma of having your data spread across multiple devices
-        and clouds.  You own your data, not a 3rd party cloud provider.
-
+        Easily synchronize your data from all of your devices and clouds, freeing you 
+        from the data maze of files spread across multiple locations.
       </>
     ),
   },
   {
-    title: 'Keep Your Data Safe',
+    title: 'Your Personal AI Companion',
     Svg: require('@site/static/img/somuchsafety.svg').default,
     description: (
       <>
-        Your data is more than just files - your data is your asset.  DASSET Data Hub protects your data
-        by keeping it synchronized and backed-up across devices and clouds.    
+        Built-in AI capabilities that securely and privately use your data to provide you
+        insights of your digital life and make searching easy.    
       </>
     ),
   },
