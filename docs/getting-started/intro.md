@@ -16,72 +16,39 @@ This is the data maze world we live in — where versions multiply, and our digi
 
 Even if all of our devices are from one vendor, when we entrust our personal data to public clouds, we’re essentially granting custody to the cloud vendors. But it's more than just files stored in the cloud. Much more. 
 
-The average person generates a whopping **147 gigabytes (GB) of data daily**. At first glance, this might seem like an astonishing statistic, but what often escapes our notice is the “invisible” data we constantly create. 
-
-**Think about it:** the instant messages we send, the websites we visit (which diligently track our browsing habits), and the data churned out by our smart devices — all of these contribute to our digital footprint. This data, intricately tied to us as individuals, becomes the raw material for companies. They deftly leverage it for various purposes, from targeted advertising to training their AI algorithms.
-
-**And here’s the twist:** as users, we unwittingly transform into the product. Our data is meticulously mined, dissected, and analyzed, all in service of business models. Yet, the benefits we receive from this data-driven ecosystem often remain elusive. 
-
-## Making our data work for us
-
-Getting a handle on this digital data dilemma is more than just being able to find and easily control our digital footprint.  Our data needs to work for us, giving us insights into our lives by analyzing and presenting relevant information that we can use to improve our daily life.  We need to transition from the model of digging through file folders to find that picture of our child on vacation in Cambodia riding a horse, to a simple query like:
-
-`🔍Show me highlights of our vacation in Cambodia` 
-
-We should be presented with pictures, a map with locations visited along with historical facts of the sites visited.  It might also show me information of my great-grandmother's visit to Cambodia in 1920 and that we visited the same sites.  
-
-And of course, it shows me that picture of Avery riding a horse at Angkor Wat, Cambodia.
-
-<img src={require("./avery-horse-cambodia.jpg").default} style={{transform:'scale(.80)'}} />
-
-The rapid advancements in AI hardware and software have brought us to the brink of achieving personalized, data-centric solutions. However, the current landscape predominantly relies on large language models trained on publicly available information. These models, while powerful, lack the intimacy of truly personalized AI.
-
-The desire for a more private, individualized AI experience is palpable. Imagine an AI companion that knows everything about us—the nuances of our preferences, the contours of our lives—and yet remains inaccessible to others. It’s a delicate balance: harnessing the power of AI while safeguarding our privacy. As we journey toward this vision, we grapple with questions of trust, control, and the fine line between personalization and intrusion.
-
 ## DASSET for Data Hub
 
-At PlanetX Labs, our mission is **to unlock the hidden value in the vast data reserves created by individuals every day.**.  We aim to achieve our mission through producing the software platform for computer manufacturers to build a personal AI Data Hub, powered by the DASSET software platform.  We aim to give users choice in deciding which computer manufacturer to purchase a Data Hub from.  Regardless of which computer manufacturer they choose, any Data Hub powered by DASSET will work with one another.
+PlanetX Labs was founded on the guiding principle that personal and business data is a critical asset that deserves to be managed with the utmost care and expertise. We aim to achieve our mission through producing the software platform for computer manufacturers to build the Data Hub, powered by the DASSET software platform.  We aim to give users choice in deciding which computer manufacturer to purchase a Data Hub from.  Regardless of which computer manufacturer they choose, any Data Hub powered by DASSET will work with one another.
 
 The DASSET software platform is designed to achieve the following core scenarios:  
 
-### 1 - Centralized data management
+### 1 - Easy to use
 
-During the set-up process of the Data Hub, users are guided to connect to their clouds (OneDrive, Google Drive and Dropbox initially) to sync the data from their clouds to the Data Hub.  Users can continue to use their cloud services as they normally do, and updates will be synced to and from the Data Hub.
+Our platform is designed for use by anyone rather than the technically adept.  From initial set-up to everyday use, ease of use is a core tenet of the design principles of the entire DASSET platform.  No complex initial set-up or fiddling with network settings to enable connectivity to your Data Hub from the internet - simply scan a QR code and you're connected.  From anywhere.
 
-Additionally, users can sync data from their devices running the DASSET client application (Android, iOS, Windows and MacOS) as well as sync data from externally attached storage devices, such as USB drives.
+### 2 - Centralized data management
+
+Designed to bring all of your data together in a unified location, DASSET synchronizes data from your cloud services and your devices.  Additionally, users can sync data from their devices running the DASSET client application (Android, iOS, Windows and MacOS) as well as sync data from externally attached storage devices, such as USB drives.
 
 <img src={require("./bring-your-data-together.png").default} style={{transform:'scale(.80)'}} />
 
-### 2 - AI-powered insights
+### 3 - Universal Search
 
-Once your data is synchronized to your Data Hub, the DASSET AI engine will be able to use inference based on a trained LLM to provide important insights, as described earlier.  While the intent of DASSET AI is to learn from all of your data, you also have the ability to use AI functionality for specific scenarios as well.
+With all of your data synchronized in a single location, having the ability to find what you’re looking for is easy with the powerful search capabilities of DASSET.  
 
-For example, the DASSET client comes with photo management, automatically detecting people in photos with the ability to tag them with names.  Object identification will be able to find landmarks, animals and other information in your photos.  Combined with existing metadata included with the photo, such as GPS coordinates, can be used for powerful natual language search to find the exact photo you are looking for without traversing endless folder structures.
+### 4 - Seamless, Secure Connectivity
 
-### 3 - Effortless connectivity with ease of use
+Whether you are on the same network or half-way across the world, connectivity to DASSET is fast and secure.  With DASSET Instant Connect, our proprietary networking technology, you have the security of a point to point VPN without the hassle of setting-up and configuring a VPN service.
 
-The ability to connect to your Data Hub is not limited to when you are on the same network, such as in your home or small business.  When you are outside of the network your Data Hub is attached to, you connect the same way as you would if you were on the same network.
+### 5 - Secure & Easy Sharing
 
-DASSET Instant Connect uses Software-Defined Networking (SDN) and Software-Defined Virtual Network (SDVN) technology to establish a virtual tunnel between the client and the Data Hub.  
+Invite friends, family or colleagues to your DASSET to share files, give them secure space to store their private data, with simple role-based access controls where you decide who gets access to what. 
 
-<img src={require("./dasset-instant-connect.png").default} style={{transform:'scale(.80)'}} />
+### 6 - Future-Ready AI Integration
 
-All of this is done automatically, not requiring any complex configuration for the user beforehand.  Simply click to connect - and that's it!
+While the current iteration of DASSET is focused on organization and security, our roadmap includes the integration of AI capabilities. This will advance DASSET from a mere organizer to a system that provides actionable insights, offering recommendations and automating tasks based on your data usage patterns.
 
-### 4 - Uncompromising privacy
-
-Your data is your asset, and protecting it is paramount as our digital footprint continues to grow.  This is a core tenet of our software platform, which is why we named it "DASSET".  We protect your data through ensuring each user of the Data Hub has their own space for their data, which is encrypted and not even accessible by the owner of the Data Hub.  Data is encrypted, both on the device, and when transmitted using DASSET Instant Connect.
-
-The DASSET software platform prioritizes data protection, recognizing that your data is a valuable asset. As our digital presence expands, safeguarding this asset becomes crucial. This is why we named it "DASSET"
-
-Here’s how DASSET achieves this:
-
-* **Individual Data Spaces:** Each user of the Data Hub is allocated a dedicated space for their data. This personalized area ensures data segregation and privacy. Even the owner of the Data Hub cannot access this encrypted data.
-* **End-to-End Encryption:** Data security extends to both storage and transmission. DASSET employs robust encryption mechanisms to safeguard your information. Whether it’s stored on the device or transmitted via DASSET Instant Connect, your data remains confidential.
-  
-Remember, DASSET’s commitment to data protection is at the core of its design. Your digital footprint is in safe hands! 
-
-### 5 - and much more...
+### 7 - and much more...
 
 A DASSET-powered Data Hub is like any other appliance in your home or small business.  It does not require regular management or maintenance - it just works.  In addition to being your "digital brain", it does the following:
 
@@ -92,10 +59,6 @@ A DASSET-powered Data Hub is like any other appliance in your home or small busi
 * 👨‍👩‍👧‍👦  Create groups to share data with a set of friends or colleagues to collaborate
 * 🎞️  Stream your movies or photos to devices in your home, such as your TV
 * 🎉  And more coming soon!
-
-## Just the beginning
-
-As the advancement of AI technology continues to evolve at rapid pace, so will the capabilities of the DASSET software platform.  Our roadmap will add new capabilities such as more flexible security controls, the ability to ingest data from your social networks and other online services that hold your data, and of course applications from the computer manufacturers specific to the Data Hub hardware.
 
 ## When can I get a Data Hub?
 The team at PlanetX Labs are currently working with major computer manufacturers to build DASSET-powered

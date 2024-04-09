@@ -80,4 +80,4 @@ DASSET Instant Connect is the networking service used to ensure easy, secure con
 
 And the best part, no configuration is needed by the user to use DASSET Instant Connect.  It automatically detects your network environment, and does the configuration needed to establish the appropriate connection.
 
-For more information on the DASSET Networking Sevice, see [**What is SDN & SDVN?**](../concepts/sdnsdvn.md).
+Learn more about [**DASSET Instant Connect**](../concepts/dasset-instant-connect).
