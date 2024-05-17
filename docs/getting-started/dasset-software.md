@@ -23,8 +23,7 @@ Sign-up on the [waitlist](https://forms.gle/4x1JTsdVEz5kqG2h7) to be notified wh
 :::
 
 ### Features
-DASSET-powered Data Hubs are designed to blend in with your everyday life.  An appliance, like any other in
-in your home, should be attractive, quiet and reliable.  Below are some of the hardware features of the
+DASSET-powered Data Hubs are designed to blend in with your everyday life.  An appliance, like any other in your home, should be attractive, quiet and reliable.  Below are some of the hardware features of the
 Data Hub:
 
 :::info
