@@ -19,7 +19,7 @@ When a client attempts to reach a DASSET Data Hub using the user’s DASSET acco
 ### Direct Link Technology (DLT)
 If no direct local network connection can be established, the client will attempt to establish a virtual tunnel between the client and the Data Hub via Instant Connect to allow a temporary DLT link for data transmission. This technology allows the server and the client to experience Internet synchronization performance very similar to connecting via WAN IP/DDNS without physically having such an environment.
 
-DLT works by initiating a virtual encrypted tunnel from the client to the Data Hub with the aid of the Instant Connect Server.
+DLT works by initiating a virtual encrypted tunnel from the client to the DASSET Data Hub with the aid of the Instant Connect Server.
 
 <img src={require("./dlt-connection.png").default} style={{transform:'scale(.80)'}} />
 

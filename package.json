@@ -22,7 +22,7 @@
     "@docusaurus/plugin-google-gtag": "3.3.2",
     "@docusaurus/plugin-google-tag-manager": "3.3.2",
     "@docusaurus/plugin-sitemap": "3.3.2",
-    "@docusaurus/preset-classic": "3.3.2",
+    "@docusaurus/preset-classic": "^3.3.2",
     "@docusaurus/theme-classic": "3.3.2",
     "@docusaurus/theme-search-algolia": "3.3.2",
     "@mdx-js/react": "^3.0.0",
@@ -90,7 +90,7 @@
     "svgo": "3.3.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.3.2"
+    "@docusaurus/module-type-aliases": "^3.3.2"
   },
   "browserslist": {
     "production": [
