@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Bring Your Data Together',
-    Svg: require('@site/static/img/control-your-data.svg').default,
+    Svg: require('@site/static/img/data-together.svg').default,
     description: (
       <>
         Easily synchronize your data from all of your devices and clouds, freeing you 
@@ -14,18 +14,18 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Your Personal AI Companion',
-    Svg: require('@site/static/img/somuchsafety.svg').default,
+    title: 'Automated Backup & Sync',
+    Svg: require('@site/static/img/backup-sync.svg').default,
     description: (
       <>
-        Built-in AI capabilities that securely and privately use your data to provide you
-        insights of your digital life and make searching easy.    
+        Whether it’s new photos on your phone, files in the cloud, or documents on your computer,
+         your DASSET Data Hub will always stay up to date.    
       </>
     ),
   },
   {
     title: 'Access from Anywhere',
-    Svg: require('@site/static/img/access-data-anywhere.svg').default,
+    Svg: require('@site/static/img/access-anywhere.svg').default,
     description: (
       <>
         DASSET Instant Connect ensures you can connect to your Data Hub from half-way across the world

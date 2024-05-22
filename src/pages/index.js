@@ -12,7 +12,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   // const imgUrl = useBaseUrl('img/DASSET_Logo.png');
-  const imgUrl = useBaseUrl('img/logo-180.png');
+  const imgUrl = useBaseUrl('img/logo-200.png');
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">

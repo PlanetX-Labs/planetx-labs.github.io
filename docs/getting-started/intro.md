@@ -107,7 +107,7 @@ In addition to Spaces, DASSET offers the ability to share individual files with 
 
 :::caution
 
-When sending a file to a non-DASSET user, they recieve an actual copy of the file.  You won't have control over thier access once sent, so use caution!
+When sending a file to a non-DASSET user, they recieve an actual copy of the file.  You won't have control over their access once sent, so use caution!
 
 :::
 
