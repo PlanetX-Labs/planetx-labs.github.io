@@ -37,6 +37,7 @@ Setting up your DASSET-powered Data Hub is as easy as 1-2-3.  Simply plug-in you
 
 <img src={require("./Bind-Device.gif").default} style={{transform:'scale(.80)'}} />
 
+
 ### ☁️ Automated backup & sync
 
 DASSET supports multiple ways to get your data together on the Data Hub.  Whether you want to move your data from another location to your Data Hub, or synchronize the data, keeping both copies up to date, DASSET has you covered.
@@ -45,9 +46,14 @@ DASSET supports multiple ways to get your data together on the Data Hub.  Whethe
 
 The following clouds are currently available to synchronize your data with your DASSET Data Hub:
 
-1. Microsoft OneDrive
-2. Google Drive
+1. Google Drive
+2. Microsoft OneDrive
 3. Dropbox
+
+
+<img src={require("./cloud-sync-setup1.png").default} style={{transform:'scale(.80)'}} />
+
+<img src={require("./cloud-sync-setup2.png").default} style={{transform:'scale(.80)'}} />
 
 :::info
 
@@ -84,6 +90,10 @@ Simply storing your digital photos on the Data Hub isn't enough by itself.  Incl
 * The ability to detect scenery, such as mountains or oceans, automatically tagging your photos for easy searching.
 * A map view of the locations of groupings of photos based on the GPS data encoded in the EXIF metadata of the picture for easily finding that family vacation to Cambodia.
 
+<img src={require("./photos-location.png").default} style={{transform:'scale(.80)'}} />
+
+<img src={require("./photos-scenery.png").default} style={{transform:'scale(.80)'}} />
+
 As we continue to add features to DASSET, the inclusion of additional AI capabilities will be coming such as photo correction, natural language search and more.
 
 ### 🎁 Securely share with anyone
@@ -103,6 +113,9 @@ The DASSET client application gives you "Spaces" to determine what data you want
 In addition to Spaces, DASSET offers the ability to share individual files with others.  This offers a quick and simple way to share that perfect picture, or your resume, with a few clicks of the mouse or taps of the finger, without copying files to specific Spaces.
 
 * **Sharing a file with other DASSET users** - Whether you invited another person to share your Data Hub, or they have a Data Hub themselves, means they have a DASSET user account.  Sharing an individual file in this case is as simple as clicking "share" on the file, and choosing the DASSET user to share the file with.  This does not send them the file, rather they have access to the file on your Data Hub.  When sharing, you can set specific permissions to the file, such as "view only" as well as an expiration date.  You can also revoke access at any time.
+
+<img src={require("./sharing.gif").default} style={{transform:'scale(.80)'}} />
+
 * **Sharing a file with anyone** - If the person you want to share a file with does not have or want to set-up a DASSET user account, you can still send them the file.  Using the native share capability on PCs and smartphones today, you simple share the file as an attachment which can then be sent using SMS, email, or any application you have installed that support sharing.
 
 :::caution
@@ -117,13 +130,13 @@ It's easy to access data connected to your home network, but what about if you'r
 
 Unfortunately, configuring a home network to allow incoming access is complex, and is fraught with risk.  If the wrong settings are configured, you're inviting data theives to infiltrate your network and steal your data.
 
-DASSET Instant Connect provides the ability to connect to your Data Hub regardless of location.  It is built on Software-Defined Networking/Software-Defined Virtual Network (SDN/SDVN) technology that configures a secure, point-to-point connection between your DASSET client application and the Data Hub, ensuring that you can securely access the data on your Data Hub, from anywhere.
+**DASSET Instant Connect** provides the ability to connect to your Data Hub regardless of location.  It is built on Software-Defined Networking/Software-Defined Virtual Network (SDN/SDVN) technology that configures a secure, point-to-point connection between your DASSET client application and the Data Hub, ensuring that you can securely access the data on your Data Hub, from anywhere.
 
 Learn how [DASSET Instant Connect](../concepts/dasset-instant-connect.md) works.
 
 ### 🔐 Store secret sensitive data
 
-The Data Vault is an application within the DASSET client application that adds an extra layer of protection for sensitive data, such as pin numbers or crypto wallet keys.  In addition to your account credentials to access the Data Vault, you also provide a unique password required to access the data stored.
+The **Data Vault** is an application within the DASSET client application that adds an extra layer of protection for sensitive data, such as pin numbers or crypto wallet keys.  In addition to your account credentials to access the Data Vault, you also provide a unique password required to access the data stored.
 
 ### 📄 Data de-duplication
 

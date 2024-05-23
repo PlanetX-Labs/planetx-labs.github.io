@@ -14,12 +14,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Automated Backup & Sync',
-    Svg: require('@site/static/img/backup-sync.svg').default,
+    title: 'Future-Ready with AI Integration',
+    Svg: require('@site/static/img/ai-ready.svg').default,
     description: (
       <>
-        Whether it’s new photos on your phone, files in the cloud, or documents on your computer,
-         your DASSET Data Hub will always stay up to date.    
+        Interact with your data like never before with DASSET’s constantly expanding AI features and applications
+        like intelligent search, smart photo management and more.    
       </>
     ),
   },
