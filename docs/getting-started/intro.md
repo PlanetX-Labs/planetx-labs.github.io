@@ -35,7 +35,7 @@ Data Hubs powered by the DASSET software are more than just storage devices conn
 
 Setting up your DASSET-powered Data Hub is as easy as 1-2-3.  Simply plug-in your Data Hub, connect it to your network and turn it on.  After downloading the DASSET application for your smartphone, simply scan the QR code on your Data Hub and voila - you're connected.  That's it.
 
-<img src={require("./Bind-Device.gif").default} style={{transform:'scale(.80)'}} />
+<img src={require("./setup-device.gif").default} style={{transform:'scale(1.0)'}} />
 
 
 ### ☁️ Automated backup & sync
@@ -51,9 +51,7 @@ The following clouds are currently available to synchronize your data with your 
 3. Dropbox
 
 
-<img src={require("./cloud-sync-setup1.png").default} style={{transform:'scale(.80)'}} />
-
-<img src={require("./cloud-sync-setup2.png").default} style={{transform:'scale(.80)'}} />
+<img src={require("./cloud-sync.gif").default} style={{transform:'scale(1.0)'}} />
 
 :::info
 
@@ -114,7 +112,7 @@ In addition to Spaces, DASSET offers the ability to share individual files with 
 
 * **Sharing a file with other DASSET users** - Whether you invited another person to share your Data Hub, or they have a Data Hub themselves, means they have a DASSET user account.  Sharing an individual file in this case is as simple as clicking "share" on the file, and choosing the DASSET user to share the file with.  This does not send them the file, rather they have access to the file on your Data Hub.  When sharing, you can set specific permissions to the file, such as "view only" as well as an expiration date.  You can also revoke access at any time.
 
-<img src={require("./sharing.gif").default} style={{transform:'scale(.80)'}} />
+<img src={require("./sharing.gif").default} style={{transform:'scale(1.0)'}} />
 
 * **Sharing a file with anyone** - If the person you want to share a file with does not have or want to set-up a DASSET user account, you can still send them the file.  Using the native share capability on PCs and smartphones today, you simple share the file as an attachment which can then be sent using SMS, email, or any application you have installed that support sharing.
 
