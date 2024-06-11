@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Frequently Asked Questions
+# FAQs
 
 ### What exactly is a DASSET Data Hub?
 
@@ -30,6 +30,6 @@ DASSET is designed to be accessed from apps from your phone (Android or iOS), or
 
 ### Can I access a DASSET Data Hub when I am not at home?
 
-Yes!  DASSET Instant Connect enables you to access your DASSET Data Hub from anywhere, anytime.  Instant Connect automatically configures your network for an optimized connection without any configuration from the user.
+Yes!  [DASSET Instant Connect](https://docs.planetxlabs.io/docs/concepts/dasset-instant-connect) enables you to access your DASSET Data Hub from anywhere, anytime.  Instant Connect automatically configures your network for an optimized connection without any configuration from the user.
 
 
