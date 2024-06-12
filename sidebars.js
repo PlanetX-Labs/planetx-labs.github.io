@@ -29,7 +29,12 @@ const sidebars = {
     {
       type: 'doc',
       id: 'faq/faqs',
-      label: 'Frequently Asked Questions',
+      label: 'FAQ',
+    },
+    {
+      type: 'doc',
+      id: 'privacy-policy/privacy-policy',
+      label: 'Privacy Policy',
     },
   ],
 };
