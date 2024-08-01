@@ -32,6 +32,11 @@ const sidebars = {
       label: 'FAQ',
     },
     {
+      type: 'category',
+      label: 'Troubleshooting',
+      items: ['troubleshooting/connectivity'],
+    },
+    {
       type: 'doc',
       id: 'privacy-policy/privacy-policy',
       label: 'Privacy Policy',
