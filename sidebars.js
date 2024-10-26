@@ -19,8 +19,63 @@ const sidebars = {
     {
       type: 'category',
       label: 'Concepts',
-      items: ['concepts/dasset-instant-connect'],
+      items: [
+        {
+          type: 'doc',
+          id: 'concepts/device-binding'
+        },
+        {
+          type: 'doc',
+          id: 'concepts/devices-screen'
+        },
+        {
+          type: 'doc',
+          id: 'concepts/spaces'
+        },
+        {
+          type: 'doc',
+          id: 'concepts/roles-permissions'
+        },
+        {
+          type: 'doc',
+          id: 'concepts/dasset-instant-connect'
+        },
+      ],
     },
+    {
+      type: 'category',
+      label: 'Features',
+      items: [
+        {
+          type: 'doc',
+          id: 'features/account-settings'
+        },
+        {
+          type: 'doc',
+          id: 'features/contacts-backup'
+        },
+        {
+          type: 'doc',
+          id: 'features/recycle'
+        },
+        {
+          type: 'doc',
+          id: 'features/de-duplication'
+        },
+        {
+          type: 'doc',
+          id: 'features/external-storage'
+        },
+        {
+          type: 'doc',
+          id: 'features/samba'
+        },
+        {
+          type: 'doc',
+          id: 'features/dlna'
+        },
+      ], 
+     },
     {
       type: 'category',
       label: 'OEMs',

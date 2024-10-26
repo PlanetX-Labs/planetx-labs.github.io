@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introduction COPY
 
 ## Our data dilemma
 
@@ -35,8 +35,9 @@ Data Hubs powered by the DASSET software are more than just storage devices conn
 
 Setting up your DASSET-powered Data Hub is as easy as 1-2-3.  Simply plug-in your Data Hub, connect it to your network and turn it on.  After downloading the DASSET application for your smartphone, simply scan the QR code on your Data Hub and voila - you're connected.  That's it.
 
+<p align="center">
 <img src={require("./setup-device.gif").default} style={{transform:'scale(1.0)'}} />
-
+</p>
 
 ### ☁️ Automated backup & sync
 
@@ -50,8 +51,9 @@ The following clouds are currently available to synchronize your data with your 
 2. Microsoft OneDrive
 3. Dropbox
 
-
+<p align="center">
 <img src={require("./cloud-sync.gif").default} style={{transform:'scale(1.0)'}} />
+</p>
 
 :::info
 
@@ -67,7 +69,7 @@ In addition to synchronizing your clouds, any device running the DASSET client a
 
 The DASSET client application is available on the following platforms:
 
-* ![Android](android16x16.png)  Android ([download on Google Play](https://play.google.com/store/apps/details?id=io.weline.dasset))
+* ![Android](android16x16.png)  Android (coming soon)
 * ![iOS](ios16x16.png)  iOS (coming soon)
 * ![Windows](windows16x16.png)  Windows (coming soon)
 * ![MacOS](macos16x16.png)  MacOS (coming soon)
@@ -80,7 +82,7 @@ Having all of your data in one location isn't all that useful unless you can eas
 
 ### 🖼️ Smart photo management
 
-There are over 5 trillion digital photos in existance.  Since the introduction of smartphones with built-in cameras, that continue to improve every year, we take lots of photos with little thought of how we're going to consume and manage the digital trove of memories we've collected.
+There are over 5 trillion digital photos in existance.  Since the introduction of smartphones with built-in cameras that continue to improve every year, we take lots of photos with little thought of how we're going to consume and manage the digital trove of memories we've collected.
 
 Simply storing your digital photos on the Data Hub isn't enough by itself.  Included with DASSET is the AI Photos application, which enables you to view, edit, categorize and tag your photos.  Some of the specific capabilities are as follows:
 
@@ -102,17 +104,13 @@ The ability to share your memories and information with others is a core tenet o
 
 The DASSET client application gives you "Spaces" to determine what data you want to share, or collaborate, with others.  You can invite others to access your DASSET-powered Data Hub, which gives them the ability to store and share their data.  How the Spaces differ is based solely on permissions granted by you, the owner of the Data Hub.   
 
-* **My Space** - This is where all of your data is stored by default.  Accessible only to you, it's your private repository of your data.  When you invite others to your Data Hub, they will have their own "My Space", which is accessible only to them.  Not even you, as the owner of the Data Hub, can view their data unless granted by the owner.  Think of this as the "home" of your data.
-* **Public Space** - This is a shared space, where anyone invited to the Data Hub can freely share data with one another.  This of this as the "town square" of data.
-* **Group Space** - Like the Public Space, the Group Space is a shared space.  The primary difference is you can determine who is, or is not, included in the Group Space.  Great for collaboration between friends or colleages, think of this as the "members only club" of data.
+Learn more about [Spaces](/docs/concepts/spaces.md).
 
 #### File Sharing
 
 In addition to Spaces, DASSET offers the ability to share individual files with others.  This offers a quick and simple way to share that perfect picture, or your resume, with a few clicks of the mouse or taps of the finger, without copying files to specific Spaces.
 
 * **Sharing a file with other DASSET users** - Whether you invited another person to share your Data Hub, or they have a Data Hub themselves, means they have a DASSET user account.  Sharing an individual file in this case is as simple as clicking "share" on the file, and choosing the DASSET user to share the file with.  This does not send them the file, rather they have access to the file on your Data Hub.  When sharing, you can set specific permissions to the file, such as "view only" as well as an expiration date.  You can also revoke access at any time.
-
-<img src={require("./sharing.gif").default} style={{transform:'scale(1.0)'}} />
 
 * **Sharing a file with anyone** - If the person you want to share a file with does not have or want to set-up a DASSET user account, you can still send them the file.  Using the native share capability on PCs and smartphones today, you simple share the file as an attachment which can then be sent using SMS, email, or any application you have installed that support sharing.
 
@@ -136,15 +134,19 @@ Learn how [DASSET Instant Connect](../concepts/dasset-instant-connect.md) works.
 
 The **Data Vault** is an application within the DASSET client application that adds an extra layer of protection for sensitive data, such as pin numbers or crypto wallet keys.  In addition to your account credentials to access the Data Vault, you also provide a unique password required to access the data stored.
 
-### 📄 Data de-duplication
+### 📄 File de-duplication
 
 When copying all of your data from your various devices and clouds to your DASSET-powered Data Hub, you're bound to have multiple copies of the same files.  Finding and removing the copies can be a tedious task as you may not even know where they are.
 
-DASSET's built-in de-duplication application allows you to scan your Data Hub for duplicate files, including determining what is or is not considered a duplicate.  By choosing whether you want files with longer names to be kept, such as "20240502_1.jpg" vs. "20240502.jpg", or by time and date, you have control over which files are selected by the default "Smart Choice" of files for deletion.  Additionally, you are able to review the files before deletion, to ensure you're choosing the correct file.
+DASSET's built-in de-duplication application allows you to scan your Data Hub for duplicate files, including determining what is or is not considered a duplicate.  
+
+Learn how the [File De-duplication](../features/de-duplication.md) works.
 
 ### 🗑️ Recycle Bin
 
 Accidentally delete a file when using de-duplicating your files?  No worries as DASSET includes a Recycle Bin which keeps your deleted files for 30 days, so you have ample time to restore those inadvertant deletions.
+
+Learn how the [Recycle Bin](../features/recycle.md) works.
 
 
 ### 🎉 And much more
