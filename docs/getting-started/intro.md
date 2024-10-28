@@ -29,7 +29,7 @@ This has a few benefits:
 
 ## What DASSET does for you
 
-Data Hubs powered by the DASSET software are more than just storage devices connected to your home or small business network.  As the hub of your digital life, DASSET is rich with applications and capabilities for your everday life.
+Data Hubs powered by the DASSET software are more than just storage devices connected to your home or small business network.  As the hub of your digital life, DASSET is rich with applications and capabilities for your everyday life.
 
 ### 🙌 Simple set-up
 
@@ -82,7 +82,7 @@ Having all of your data in one location isn't all that useful unless you can eas
 
 ### 🖼️ Smart photo management
 
-There are over 5 trillion digital photos in existance.  Since the introduction of smartphones with built-in cameras that continue to improve every year, we take lots of photos with little thought of how we're going to consume and manage the digital trove of memories we've collected.
+There are over 5 trillion digital photos in existence.  Since the introduction of smartphones with built-in cameras that continue to improve every year, we take lots of photos with little thought of how we're going to consume and manage the digital trove of memories we've collected.
 
 Simply storing your digital photos on the Data Hub isn't enough by itself.  Included with DASSET is the AI Photos application, which enables you to view, edit, categorize and tag your photos.  Some of the specific capabilities are as follows:
 
@@ -116,7 +116,7 @@ In addition to Spaces, DASSET offers the ability to share individual files with 
 
 :::caution
 
-When sending a file to a non-DASSET user, they recieve an actual copy of the file.  You won't have control over their access once sent, so use caution!
+When sending a file to a non-DASSET user, they receive an actual copy of the file.  You won't have control over their access once sent, so use caution!
 
 :::
 
@@ -124,7 +124,7 @@ When sending a file to a non-DASSET user, they recieve an actual copy of the fil
 
 It's easy to access data connected to your home network, but what about if you're away from home, for example on a trip or vacation?  Your data is only valuable if you can access it easily, quickly and most importantly, securely.
 
-Unfortunately, configuring a home network to allow incoming access is complex, and is fraught with risk.  If the wrong settings are configured, you're inviting data theives to infiltrate your network and steal your data.
+Unfortunately, configuring a home network to allow incoming access is complex, and is fraught with risk.  If the wrong settings are configured, you're inviting data thieves to infiltrate your network and steal your data.
 
 **DASSET Instant Connect** provides the ability to connect to your Data Hub regardless of location.  It is built on Software-Defined Networking/Software-Defined Virtual Network (SDN/SDVN) technology that configures a secure, point-to-point connection between your DASSET client application and the Data Hub, ensuring that you can securely access the data on your Data Hub, from anywhere.
 
@@ -140,13 +140,13 @@ When copying all of your data from your various devices and clouds to your DASSE
 
 DASSET's built-in de-duplication application allows you to scan your Data Hub for duplicate files, including determining what is or is not considered a duplicate.  
 
-Learn how the [File De-duplication](../features/de-duplication.md) works.
+Learn how the [File De-duplication](../features/apps/de-duplication.md) works.
 
 ### 🗑️ Recycle Bin
 
-Accidentally delete a file when using de-duplicating your files?  No worries as DASSET includes a Recycle Bin which keeps your deleted files for 30 days, so you have ample time to restore those inadvertant deletions.
+Accidentally delete a file when using de-duplicating your files?  No worries as DASSET includes a Recycle Bin which keeps your deleted files for 30 days, so you have ample time to restore those inadvertent deletions.
 
-Learn how the [Recycle Bin](../features/recycle.md) works.
+Learn how the [Recycle Bin](../features/apps/recycle.md) works.
 
 
 ### 🎉 And much more

@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # File De-Duplication
-When bringing all of your data together from muptile devices and clouds, it's likely that you will have the same file from these locations, copied multiple times to your Data Hub.  Finding these files on your own, and deciding which ones to keep vs. delete can be daunting.  
+When bringing all of your data together from multiple devices and clouds, it's likely that you will have the same file from these locations, copied multiple times to your Data Hub.  Finding these files on your own, and deciding which ones to keep vs. delete can be daunting.  
 
 DASSET comes with a built-in feature to find duplicate files, and give you the option to delete them.
 

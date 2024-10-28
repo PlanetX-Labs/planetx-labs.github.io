@@ -46,7 +46,7 @@ The DASSET client applications are available for the following platforms:
 * ![MacOS](macos16x16.png)  MacOS (coming soon)
 
 ### OEM Customization
-With multiple OEMs producting DASSET-Powered Data Hubs, it's important that OEMs have options to differentiate their products, giving customers an OEM experience when interacting with their Data Hub using the DASSET client applications.
+With multiple OEMs producing DASSET-Powered Data Hubs, it's important that OEMs have options to differentiate their products, giving customers an OEM experience when interacting with their Data Hub using the DASSET client applications.
 
 PlanetX Labs offers OEM customization services, enabling OEMs to deliver their branding directly to customers. The DASSET client application is developed and published on respective app stores by PlanetX Labs.  Rather than having multiple DASSET client applications for each OEM, the application is built to support OEM customization such that once a user connects to the OEM's DASSET-Powered Data Hub, the OEM customization will be surfaced to the user.
 
@@ -58,7 +58,7 @@ When the user logs into the DASSET Client Application and is presented with the 
 <img src={require("./oem-customization.png").default} style={{transform:'scale(.80)'}} />
 
 #### 2 - Other OEM Customization Options
-For OEMs that want additional customization options, this service is available for a fee based on the level of customization desired, based on technical feasability. OEMs can contact [PlanetX Labs](https://planetxlabs.io/contact) for more information and pricing.
+For OEMs that want additional customization options, this service is available for a fee based on the level of customization desired, based on technical feasibility. OEMs can contact [PlanetX Labs](https://planetxlabs.io/contact) for more information and pricing.
 
 ## SDVN Network Infrastructure
 The SDVN Network Infrastructure (DASSET Instant Connect), is a service offered by PlanetX Labs for OEM's customers using a DASSET-Powered Data Hub to establish secure, private communication between the user and the Data Hub.  PlanetX Labs offers 12 super gateways, geographically distributed to ensure quick authentication at the following locations:

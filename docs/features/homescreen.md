@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Homescreen
+# Home Screen
 After logging into your DASSET user account and connecting to a Data Hub, you are presented with the **Home Screen**.  The **Home Screen** is your one-stop shop for accessing all of the functionality of DASSET on the Data Hub you are connected to.  For example, connecting to a Data Hub that you have been invited to join may have a slightly different **Home Screen** than when you connect to your own Data Hub.
 
 The following are sections of the **Home Screen** for your DASSET Data Hub.
