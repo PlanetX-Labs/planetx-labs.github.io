@@ -9,7 +9,7 @@ Your DASSET Data Hub has the ability to view and manage data that reside on stor
 <img src={require("./external-storage.png").default} style={{transform:'scale(.75)'}} />
 </p>
 
-Once in the **External Storage** application, any USB-connect storage devices will be shown.  Access the data on the storage devices works just like if you were accessing files in the [Spaces](../concepts/spaces.md) on your Data Hub.
+Once in the **External Storage** application, any USB-connect storage devices will be shown.  Access the data on the storage devices works just like if you were accessing files in the [Spaces](../../concepts/spaces.md) on your Data Hub.
 
 <p align="center">
 <img src={require("./external-storage-view.png").default} style={{transform:'scale(1.0)'}} />

@@ -1,14 +1,3 @@
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
-
- The sidebars can be generated from the filesystem, or explicitly defined here.
-
- Create as many sidebars as you want.
- */
-
 const sidebars = {
   DocsSidebar: [
     {
@@ -52,27 +41,37 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'features/contacts-backup'
+          id: 'features/homescreen'
         },
         {
-          type: 'doc',
-          id: 'features/recycle'
-        },
-        {
-          type: 'doc',
-          id: 'features/de-duplication'
-        },
-        {
-          type: 'doc',
-          id: 'features/external-storage'
-        },
-        {
-          type: 'doc',
-          id: 'features/samba'
-        },
-        {
-          type: 'doc',
-          id: 'features/dlna'
+          type: 'category',
+          label: 'Applications',
+          items: [
+            {
+              type: 'doc',
+              id: 'features/apps/contacts-backup'
+            },
+            {
+              type: 'doc',
+              id: 'features/apps/recycle'
+            },
+            {
+              type: 'doc',
+              id: 'features/apps/de-duplication'
+            },
+            {
+              type: 'doc',
+              id: 'features/apps/external-storage'
+            },
+            {
+              type: 'doc',
+              id: 'features/apps/samba'
+            },
+            {
+              type: 'doc',
+              id: 'features/apps/dlna'
+            },
+          ],
         },
       ], 
      },
