@@ -73,56 +73,6 @@ const sidebars = {
             },
           ],
         },
-        {
-          type: 'category',
-          label: 'Settings',
-          items: [
-            {
-              type: 'doc',
-              id: 'features/settings/settings-home'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-device-info'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-share-device'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-member-management'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-hardware-status'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-disk-management'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-disk-self-test'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-disk-sleep'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-security-settings'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-lan-settings'
-            },
-            {
-              type: 'doc',
-              id: 'features/settings/settings-power-management'
-            },
-          ],
-        },
       ], 
      },
     {

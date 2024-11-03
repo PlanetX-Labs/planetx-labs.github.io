@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction COPY
+# Introduction
 
 ## Our data dilemma
 

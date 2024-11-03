@@ -39,4 +39,4 @@ The **Navigation Bar** provides a quick way to navigate through the DASSET appli
 2. **<u>Files</u>** - The ![files](homescreen-navbar-home.png) icon takes you to the **Files** section of DASSET where you can manage all of your files easily.
 3. **<u>Add Files</u>** - The ![addfiles](homescreen-navbar-addfiles.png) icon gives you quick access to uploading photos or other files to your Data Hub with ease.
 4. **<u>Apps</u>** - The ![apps](homescreen-navbar-apps.png) icon gives you quick access to all of the apps available to you on the Data Hub.
-5. **<u>Settings</u>** - The ![settings](homescreen-navbar-settings.png) icon gives you quick access to all of the settings available to you on the Data Hub.
+5. **<u>Settings</u>** - The ![settings](homescreen-navbar-settings.png) icon gives you quick access to all of the settings available to you on the Data Hub.  See [Settings](../features/account-settings.md) for more details.
