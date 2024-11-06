@@ -125,6 +125,26 @@ const sidebars = {
         },
       ], 
      },
+     {
+      type: 'category',
+      label: 'How to',
+      items: [
+        {
+          type: 'category',
+          label: 'Getting Started',
+          items: [
+          {
+            type: 'doc',
+            id: 'how-to/getting-started/dasset-app-install'
+          },
+          {
+            type: 'doc',
+            id: 'how-to/getting-started/device-set-up'
+          },
+        ],
+        },          
+      ],
+     },
     {
       type: 'category',
       label: 'OEMs',
