@@ -49,6 +49,10 @@ const sidebars = {
           items: [
             {
               type: 'doc',
+              id: 'features/apps/album-backup'
+            },
+            {
+              type: 'doc',
               id: 'features/apps/contacts-backup'
             },
             {
