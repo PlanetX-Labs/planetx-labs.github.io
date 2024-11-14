@@ -47,4 +47,4 @@ Under the **System** group, the following sections are available:
 7. **<u>Power Management</u>** - Provides the ability to change the power management options of the Data Hub, such as configuring recurring shutdown times.  See [Power Management](./settings-power-management.md)
 
 ## Unbind this Device
-**Unbinding this Device** removes your account from the Data Hub.  In order to re-gain access to the Data Hub, you will need to be re-invited by a user with the **Owner** or **Member** role.  See [Device Binding](../../concepts/device-binding.md) for more information.
+**Unbinding this Device** removes your account from the Data Hub.  In order to re-gain access to the Data Hub, you will need to be re-invited by a user with the **Owner** or **Manager** role.  See [Device Binding](../../concepts/device-binding.md) for more information.

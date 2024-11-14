@@ -29,7 +29,7 @@ Under the **LAN IP Management** group, the following sections are available:
 
 :::danger
 
-The **Mode** capability in **LAN IP Management** is intended for individuals who understand networking technology and have specific needs to change these settings due to unique network configurations.  It is not recommended for most users to change these settings.  Doing so incorrectly can make your Data Hub inaccessible from your local area network.
+The **Mode** capability in **LAN IP Management** is intended for individuals who understand networking technology and have specific needs to change these settings due to unique network configurations.  It is not recommended for most users to change these settings.  Doing so incorrectly can make your Data Hub inaccessible from your local area network.  See [Connectivity Errors](../../troubleshooting/connectivity.md) for instructions on how to reset your network settings.
 
 :::
 

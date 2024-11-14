@@ -33,7 +33,7 @@ For example, the image below shows that the default **Device Name** for new user
 This is the user account that has the [Owner](../../concepts/roles-permissions.md) role of the Data Hub.  Useful in situations where you need your permissions changed on the device.
 
 ### Joined on
-This is the date the Data Hub was initially set-up by the [Owner](../../concepts/roles-permissions.md).
+This is the date the currently logged-in user joined the Data Hub.
 
 ## Network
 Under the **Network** group, the following sections are available:
@@ -45,7 +45,7 @@ DASSET Data Hubs construct a virtual network, which ensures direct, private comm
 This is the IP address assigned to the Data Hub by your network's home or business router.  This is the IP address you use to connect to your Data Hub from a Windows or MacOS device, using [SAMBA](../apps/samba.md).
 
 ### Domain name
-Each DASSET Data Hub has a domain name assigned by PlanetX Labs, which can be used for communicating with the Data Hub over the internet.
+Each DASSET Data Hub has a domain name assigned by PlanetX Labs, which can be used for communicating with the Data Hub over the internet via the Virtual Network.
 
 ### Serial Number (SN)
 This is the serial number given to the Data Hub by its manufacturer.  The SN is used by DASSET to provide manufacturer-specific features, such as applications and access to customer support.

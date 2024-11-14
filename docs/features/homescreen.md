@@ -14,7 +14,7 @@ The following are sections of the **Home Screen** for your DASSET Data Hub.
 ## 1 - Actions Bar
 The **Actions Bar** gives you quick access to Notifications, File Transfer status and Search.
 
-1. **<u>Notifications</u>** - The ![notification](homescreen-notification.png) icon will show any notifications you may have for the Data Hub, including requests to confirm adding new users to the Data Hub, or system areas that need your attention, such as running out of hard disk space.
+1. **<u>Notifications</u>** - The ![notification](homescreen-notification.png) icon will show any notifications you may have for the Data Hub, including requests to confirm adding new users to the Data Hub, or users joining or leaving your Virtual Network.
 2. **<u>File Transfer Status</u>** - The ![file transfer](homescreen-transfer.png) icon will show the status of any in-progress file transfers happening on your system, including notifications if file transfers have failed.  Selecting this icon will show you details of the file transfers.
 3. **<u>Search</u>** - The The ![search](homescreen-search.png) icon is your gateway to finding files and data on your DASSET Data Hub.  Selecting this icon will open a **Search** screen which will allow you to search across all [Spaces](../concepts/spaces.md) you have access to.
 

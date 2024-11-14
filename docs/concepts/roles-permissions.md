@@ -17,7 +17,7 @@ The Member Role is the default role assigned to users invited to join a Data Hub
 Once a user has accepted an invite to access another user's Data Hub, the Owner or Manager of the Data Hub has the ability to grant them additional permissions as appropriate.
 
 ## Manager Role
-The Manager role is an administrative role, having all of the same permissions as a Member with the additional ability to change permissions for Members.  The purpose of the Manager role is to give another user the ability to fully manage the settings of the Data Hub without requiring the Owner to do so.  The action 
+The Manager role is an administrative role, having all of the same permissions as a Member with the additional ability to change permissions for Members.  The purpose of the Manager role is to give another user the ability to fully manage the settings of the Data Hub without requiring the Owner to do so.
 
 ## Owner Role
 The Owner role is the highest-level of access control of a DASSET Data Hub.  It's an administrative role which provides the same permissions as the Manager role, with the only difference being the ability to transfer device ownership to another user.

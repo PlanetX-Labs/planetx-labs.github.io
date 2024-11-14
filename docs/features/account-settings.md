@@ -36,10 +36,10 @@ Devices such as phones, tablets and computers running the DASSET client software
 Selecting **Localhost Status** gives you information regarding the device you are using to connect to the DASSET Account Services related to your user account.  The following information is available to view and configure:
 
 1. **<u>Local Name</u>** - This is the name of the device you are currently accessing the DASSET services from.  So if you are running the DASSET client from your phone, it will show you the OEM-ID provided from the phone manufacturer.  You can change this to a more friendly name if you wish.
-2. **<u>Current Network</u>** - The name of your local network.
-3. **<u>Selected Node</u>** - The node selected in your network.
-4. **<u>Virtual IP</u>** - The Virtual IP address 
-5. **<u>LAN IP</u>** - The IP Address of the device you are running the DASSET application (eg; your phone)
+2. **<u>Current Network</u>** - The name of the Virtual Network you are currently on.
+3. **<u>Selected Node</u>** - The node selected in your Virtual Network.
+4. **<u>Virtual IP</u>** - The Virtual IP address of the device you're currently using (eg; your phone).
+5. **<u>LAN IP</u>** - The local network IP Address of the device you are running the DASSET application (eg; your phone)
 6. **<u>Domain</u>** - The domain name assigned to your network by the DASSET Account Services.
 7. **<u>Online Duration</u>** - The amount of time your device has been running the DASSET application.
 8. **<u>Latency</u>** - The latency between your device and the DASSET Account Services.
