@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### What exactly is a DASSET Data Hub?
 
-A DASSET Data Hub is a Network-Attached Storage (NAS) device that connects to your home or business network to store your data.  It contains one or more Hard Disk Drives (HDDs) or Solid-State Drives (SSDs) that can hold much more data than your typical computer.  By having your data stored on a DASSET Data Hub, you can have access to all of your personal or business data from your computer or mobile device without having to store it in a public cloud.
+A DASSET Data Hub is a Network-Attached Storage (NAS) device that connects to your home or business network to store your data.  It contains one or more Hard Disk Drives (HDDs) or Solid-State Drives (SSDs) that can hold much more data than your typical computer.  By having your data stored on a DASSET Data Hub, you can have access to all of your personal or business data from your computer or mobile device without having to store it in a public cloud service.
 
 ### How is a DASSET Data Hub different from a NAS?
 
