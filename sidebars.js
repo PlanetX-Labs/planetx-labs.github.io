@@ -29,6 +29,10 @@ const sidebars = {
           type: 'doc',
           id: 'concepts/dasset-instant-connect'
         },
+        {
+          type: 'doc',
+          id: 'concepts/personal-ai'
+        },
       ],
     },
     {

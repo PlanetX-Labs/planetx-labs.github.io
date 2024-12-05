@@ -10,15 +10,15 @@ A DASSET Data Hub is a Network-Attached Storage (NAS) device that connects to yo
 
 ### How is a DASSET Data Hub different from a NAS?
 
-A DASSET Data Hub device is a NAS.  How it’s different is that it’s designed to be consumer-friendly.  Typical NAS devices are complex to use, and require technical knowledge.
+A DASSET Data Hub device is a NAS, but designed for everyday users, not just tech-enthusiasts.  No complex configuration of network settings to get access to your Data Hub from anywhere, simple photo management including face-tagging and scene detection, DASSET is designed with ease of use first.
 
-### What can I do with a DASSET Data Hub?
+### What is DASSET AI?
 
-A DASSET Data Hub is more than just a data storage device.  With it's built-in AI capabilities, it can help you organize your photos, videos and documents.  Easily share data with other individuals, all in a private, secure manner.
+DASSET AI is the artificial intelligence engine that powers your personal and private AI.  It uses a hybrid AI approach, processing your personal data for AI queries locally while using the public cloud for processing non-sensitive data.  With DASSET AI, you can generate images, summarize documents and notes, and create a private library of data that never leaves your device.
 
 ### When can I buy a DASSET Data Hub?
 
-We are working with major computer manufacturers now, with expected availability by the end of 2024.
+We are working with several major computer manufacturers to produce DASSET Data Hubs, with expected availability by the middle of 2025.
 
 ### How much will a DASSET Data Hub cost?
 
@@ -26,7 +26,7 @@ DASSET will be available in multiple configurations, from entry-level to higher-
 
 ### What devices can I use with a DASSET Data Hub?
 
-DASSET is designed to be accessed from apps from your phone (Android or iOS), or your computer (Windows and MacOS).
+DASSET is designed to be accessed from apps from your mobile devices (Android or iOS), or your computer (Windows and MacOS).
 
 ### Can I access a DASSET Data Hub when I am not at home?
 
