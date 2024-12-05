@@ -31,7 +31,7 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'concepts/personal-ai'
+          id: 'concepts/dasset-ai'
         },
       ],
     },
