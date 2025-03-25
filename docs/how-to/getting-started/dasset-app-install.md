@@ -10,18 +10,21 @@ The DASSET application is available for Android and iPhone mobile devices and ta
 
 Download DASSET on your device to get started:
 
-<p align="center">
-    <a href="https://play.google.com/">
-        <img src={require("./google-play.png").default} alt="Google Play" style={{transform:'scale(0.75)'}} />
-        Download on Google Play
-    </a>
+<!-- This is a comment 
+// <p style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "20px" }}>
+//    <a href="https://play.google.com/store/apps/details?id=io.dassetpxl.app">
+//        <img src={require("./google-play.png").default} alt="Google Play" style={{transform:'scale(0.75)'}} />
+//    </a>
+//    <a href="https://apps.apple.com/us/app/dasset-mobile/id6717579195?platform=iphone">
+//        <img src={require("./apple-store.png").default} alt="iOS Store" style={{transform:'scale(0.75)'}} />
+//    </a>
+// </p> -->
+
+<p style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "20px" }}>
+   <a href="https://dassetai.ai/download/dasset.html">
+       <img src={require("./dasset-download.png").default} alt="Download DASSET" style={{transform:'scale(0.75)'}} />
+   </a>
 </p>
-
-:::note
-
-Applications for iOS, Windows and MacOS are coming soon!
-
-:::
 
 ## Step 2: Create an Account
 After installing the DASSET application, you are presented with the option to either log into an existing user account, or to create a new one.  
