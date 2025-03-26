@@ -156,7 +156,16 @@ const sidebars = {
     {
       type: 'category',
       label: 'OEMs',
-      items: ['oem-odm/oems'],
+      items: [
+        {
+          type: 'doc',
+          id: 'oem-odm/oem-opportunity'
+        },
+        {
+          type: 'doc',
+          id: 'oem-odm/oem-software-platform'
+        },
+     ],
     },
     {
       type: 'doc',

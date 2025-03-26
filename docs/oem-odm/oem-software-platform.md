@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # DASSET Software Platform
@@ -40,28 +40,15 @@ mouse.  Instead, you interact with the Data Hub through the DASSET client applic
 
 The DASSET client applications are available for the following platforms:
 
-* ![Android](android16x16.png)  Android ([download on Google Play](https://play.google.com/store/apps/details?id=io.weline.dasset))
-* ![iOS](ios16x16.png)  iOS (coming soon)
-* ![Windows](windows16x16.png)  Windows (coming soon)
-* ![MacOS](macos16x16.png)  MacOS (coming soon)
-
-### OEM Customization
-With multiple OEMs producing DASSET-Powered Data Hubs, it's important that OEMs have options to differentiate their products, giving customers an OEM experience when interacting with their Data Hub using the DASSET client applications.
-
-PlanetX Labs offers OEM customization services, enabling OEMs to deliver their branding directly to customers. The DASSET client application is developed and published on respective app stores by PlanetX Labs.  Rather than having multiple DASSET client applications for each OEM, the application is built to support OEM customization such that once a user connects to the OEM's DASSET-Powered Data Hub, the OEM customization will be surfaced to the user.
-
-The default customization option in the DASSET client application 
-
-#### 1 - Default OEM Customization
-When the user logs into the DASSET Client Application and is presented with the Devices page, each Data Hub the user is connected to will be shown.  Data Hubs produced by OEMX will have the image of their particular device shown, along with OEMX's logo.  The same is true if OEMY is also a device connected to the user's DASSET account.
-
-<img src={require("./oem-customization.png").default} style={{transform:'scale(.80)'}} />
-
-#### 2 - Other OEM Customization Options
-For OEMs that want additional customization options, this service is available for a fee based on the level of customization desired, based on technical feasibility. OEMs can contact [PlanetX Labs](https://planetxlabs.io/contact) for more information and pricing.
+* ![Android](android16x16.png)  Android
+* ![iOS](ios16x16.png)  iOS 
+* ![Windows](windows16x16.png)  Windows 
+* ![MacOS](macos16x16.png)  MacOS 
 
 ## SDVN Network Infrastructure
-The SDVN Network Infrastructure (DASSET Instant Connect), is a service offered by PlanetX Labs for OEM's customers using a DASSET-Powered Data Hub to establish secure, private communication between the user and the Data Hub.  PlanetX Labs offers 12 super gateways, geographically distributed to ensure quick authentication at the following locations:
+The SDVN Network Infrastructure (DASSET Instant Connect), is a service offered by PlanetX Labs for OEM's customers using a DASSET-Powered Data Hub to establish secure, private communication between the user and the Data Hub.  By partnering with PlanetX Labs through DASSET, you no longer have to establish, maintain and pay for expensive connectivity infrastructure for your customers.  The cost of these services are included in the base license of the DASSET SW Platform.  
+
+PlanetX Labs offers 12 super gateways, geographically distributed to ensure quick authentication at the following locations:
 
 * Beijing
 * Guangzhou
@@ -77,13 +64,3 @@ The SDVN Network Infrastructure (DASSET Instant Connect), is a service offered b
 * Vancouver BC
 
 Learn more about the [**DASSET Instant Connect**](../concepts/dasset-instant-connect).
-
-## OEM Licensing Details
-
-In addition to the above components, included in the OEM License for OEMs is the following:
-
-* 5 concurrent users connected to a DASSET-Powered Data Hub
-* Allowance for each user to connect up to 3 devices to a DASSET-Powered Data Hub
-* Basic DASSET Instant Connect service usage
-
-For details on licensing options, including additional client connectivity, user connectivity or accelerated DASSET Instant Connect service usage, contact [PlanetX Labs](https://planetxlabs.io/contact).
