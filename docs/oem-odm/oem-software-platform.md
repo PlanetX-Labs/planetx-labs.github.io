@@ -4,63 +4,159 @@ sidebar_position: 2
 
 # DASSET Software Platform
 
-The DASSET Software Platform is a suite of components and services that enables OEMs to build DASSET-Powered Data Hubs.  The following are the core components that make-up the software platform:
+**Overview**
 
-<img src={require("./dasset-software-platform.png").default} style={{transform:'scale(.80)'}} />
+The DASSET Software Platform is a complete suite of components and services that enables OEMs to build DASSET-powered Data Hubs.
 
-OEMs can license the DASSET Software Platform from PlanetX Labs, which lowers their non-recurring engineering costs for entering the smart storage market for Consumers and SMBs.  
+**Why partner with PlanetX Labs:** Lower your non-recurring engineering costs for entering the smart storage market. We provide the complete software stack—you focus on building great hardware.
 
-## Data Hub OS
+**Target market:** Privacy-conscious consumers and small businesses seeking alternatives to big tech cloud services.
 
-The Data Hub itself is a computer, which spans several hardware configurations based on the computer manufacturer's preferences.  The DASSET OS is a Linux-based operating system which provides the capabilities needed to run the Data Hub itself.  This also includes the lower-level firmware for specific hardware and networking components of the Data Hub as well as the the DASSET AI & ML engine, which applications use to process AI-related tasks on the Data Hub directly.
+## Core Platform Components
 
-### OEM Hardware Options
-DASSET-powered Data Hubs are designed to blend in with your everyday life.  An appliance, like any other in your home, should be attractive, quiet and reliable.  Below are some of the hardware features OEMs should consider when building a DASSET-powered Data Hub:
+### 1. Data Hub OS
 
-| Feature                   | Details                                                   |
-|:--------------------------|:----------------------------------------------------------|
-| AI-optimized chipset      | Chipsets which include integrated GPU & NPU to accelerate AI operations such as Intel's Core Ultra 7 series |
-| Discrete graphics         | Optional but recommended when AI-optimized chipsets are not present |
-| 4GB - 32GB DDR5 RAM       | Certain capabilities and response time will be limited on 4-8GB configurations |
-| eMMC 32G                  | For DASSET OS image                                       |
-| M.2 SSD / 3.5" SATA HDD   | For end-user data storage.  Minimum 2 disks, recommended 4-8                 |
-| LVM, RAID 0,1,5,6         | Options to configure the HDDs/SSDs to protect against failure  |
-| RJ45 Gigabit Ethernet     | Minimum 1, recommended 2                                  |
-| USB 3.2 / Thunderbolt 4   | Both recommended for data ingestion flexibility with Thunderbolt ports on front and back, and USB Type A port in the front |
-| Quiet operation           | Thermal-based, low-rpm fan                                |
-| Tool-free maintenance     | Adding or removing HDDs can be done without tools         |
-| Status LED indicators     | Indicates status of power, HDD activity and network status |
-| Reset button              | Recessed reset button to reset the Data Hub's networking configuration |
+**What it is:** Linux-based operating system optimized for smart storage and data management.
 
+**What's included:**
 
-## DASSET Client Applications
+* Core operating system and system services  
+* Hardware-specific firmware for storage and networking components  
+* DASSET AI & ML engine for on-device intelligence  
+* Automatic updates for security and features
 
-DASSET-powered Data Hubs are **headless**, meaning that they do not connect to a computer monitor, keyboard or
-mouse.  Instead, you interact with the Data Hub through the DASSET client applications for your computer or mobile device.
+**Why it matters for OEMs:** Complete OS stack provided—no need to build from scratch. Proven, stable platform that's ready to deploy.
 
-The DASSET client applications are available for the following platforms:
+**Technical specifications:**
+
+* Linux kernel optimized for storage workloads  
+* Support for multiple hardware configurations  
+* Built-in RAID and LVM support  
+* Hardware abstraction layer for easy integration
+
+### 2. DASSET Client Applications
+
+**What they are:** Apps that users install on their devices to access their DASSET hub.
+
+**Available platforms:**
 
 * ![Android](android16x16.png)  Android
 * ![iOS](ios16x16.png)  iOS 
 * ![Windows](windows16x16.png)  Windows 
 * ![MacOS](macos16x16.png)  MacOS 
+* Web browser (any platform)
 
-## SDVN Network Infrastructure
-The SDVN Network Infrastructure (DASSET Instant Connect), is a service offered by PlanetX Labs for OEM's customers using a DASSET-Powered Data Hub to establish secure, private communication between the user and the Data Hub.  By partnering with PlanetX Labs through DASSET, you no longer have to establish, maintain and pay for expensive connectivity infrastructure for your customers.  The cost of these services are included in the base license of the DASSET SW Platform.  
+**What they do:**
 
-PlanetX Labs offers 12 super gateways, geographically distributed to ensure quick authentication at the following locations:
+* Provide seamless access to Data Hub from any device  
+* Automatic synchronization of files and folders  
+* AI-powered search and organization  
+* Secure file sharing and collaboration  
+* Background backup and sync
 
-* Beijing
-* Guangzhou
-* Hong Kong
-* Tokyo
-* Singapore
-* Sydney
-* Djibouti
-* Frankfurt
-* San Francisco
-* New York
-* Oregon
-* Vancouver BC
+**Why it matters for OEMs:** Users get a complete, polished experience across all their devices. No need to develop apps—we provide them all.
+
+**User experience:** Works like familiar cloud services (iCloud, Google Drive) but with complete privacy. Users feel at home immediately.
+
+### 3. SDVN Network Infrastructure (Instant Connect)
+
+**What it is:** Global connectivity infrastructure that lets users access their Data Hub from anywhere without complex network configuration.
+
+**What's included in your license:**
+
+* 12 geographically distributed super gateways  
+* Automatic connectivity establishment  
+* Secure relay services when needed  
+* 24/7 infrastructure monitoring and maintenance
+
+**Why it matters for OEMs:** No need to build and maintain expensive connectivity infrastructure. We handle all the networking complexity. Users get "it just works" connectivity—one of the biggest pain points with traditional NAS eliminated.
+
+**Gateway locations:**
+
+* Beijing, Guangzhou, Hong Kong (Asia-Pacific)  
+* Tokyo, Singapore, Sydney (Asia-Pacific)  
+* Djibouti (Africa/Middle East)  
+* Frankfurt (Europe)  
+* San Francisco, New York, Oregon, Vancouver BC (North America)
+
+**Cost:** Included in base DASSET Software Platform license. No additional per-user or per-device fees.
 
 Learn more about the [**DASSET Instant Connect**](../concepts/dasset-instant-connect).
+
+## OEM Hardware Guidelines
+
+**Design philosophy:** DASSET-powered Data Hubs should blend into everyday life. Like any home appliance, they should be attractive, quiet, and reliable.
+
+**Recommended Hardware Specifications**
+
+**Processor:**
+
+* AI-optimized chipsets with integrated GPU & NPU (e.g., Intel Core Ultra 7 series)  
+* Discrete graphics optional but recommended if AI-optimized chipset not available  
+* Accelerates AI operations like photo recognition and intelligent search
+
+**Memory:**
+
+* Minimum: 4GB DDR5 RAM  
+* Recommended: 8GB \- 16GB DDR5 RAM  
+* Advanced configurations: 32GB DDR5 RAM  
+* Note: Performance and AI capabilities scale with RAM
+
+**Storage:**
+
+* eMMC 32GB for DASSET OS image (system)  
+* M.2 SSD or 3.5" SATA HDD for user data  
+* Minimum: 2 drives for redundancy  
+* Recommended: 4-8 drive bays for expansion  
+* Support for LVM, RAID 0, 1, 5, 6 for data protection
+
+**Connectivity:**
+
+* Minimum: 1x RJ45 Gigabit Ethernet  
+* Recommended: 2x RJ45 Gigabit Ethernet (redundancy & performance)  
+* USB 3.2 ports (Type-A on front panel for easy access)  
+* Thunderbolt 4 optional (front and back for high-speed data ingestion)
+
+**User Experience Features:**
+
+* Quiet operation: Thermal-based, low-RPM fans  
+* Tool-free maintenance: Easy drive installation/removal  
+* Status LED indicators: Power, HDD activity, network status  
+* Recessed reset button: Network configuration reset without full reboot
+
+**Why these matter:**
+
+* AI chipsets enable local AI processing—key differentiator from traditional NAS  
+* Multiple drives provide redundancy and performance  
+* Quiet operation makes it suitable for home/office environments  
+* Tool-free design reduces support burden
+
+## Product Architecture
+
+**Headless Design:** DASSET-powered Data Hubs don't connect to monitors, keyboards, or mice. All interaction happens through client applications on users' existing devices.
+
+**Why this matters:**
+
+* Lower hardware costs (no display components needed)  
+* Smaller, more elegant form factor  
+* Fits naturally into home/office environments  
+* Users manage through familiar devices they already own
+
+**User interaction model:**
+
+1. User installs DASSET app on phone, tablet, or computer  
+2. App connects to Data Hub via Instant Connect  
+3. User manages all settings and data through app  
+4. Data Hub operates silently in background
+
+## Partner Benefits Summary
+
+**Lower Engineering Costs:** Complete software platform provided. Faster time to market compared to building from scratch.
+
+**Market Differentiation:** Stand out with built-in AI capabilities and privacy-first positioning. Capture growing privacy-conscious consumer segment.
+
+**Recurring Revenue:** Move beyond one-time hardware sales. Generate ongoing revenue through premium features and services.
+
+**Infrastructure Included:** No need to build connectivity infrastructure. Instant Connect included in base license reduces operational complexity.
+
+**Support & Co-Marketing:** Technical support, documentation, and joint go-to-market programs available to partners.

@@ -4,55 +4,152 @@ sidebar_position: 1
 
 # How Instant Connect Works
 
-Instant Connect provides the ability to reliably connect to a DASSET Data Hub from the DASSET client applications on your phone, PC or Mac.  If Instant Connect is unable to connect to the destination Data Hub after completing the Instant Connect connectivity procedure, Instant Connect will route the connection through PlanetX Labs Cloud Relay Services to establish alternative connectivity.  The following explains the process by which Instant Connect performs for connectivity. 
+## Overview
+
+**What it does:** Instant Connect provides reliable connectivity between DASSET client applications and Data Hubs without requiring users to configure routers, networks, or firewalls.
+
+**Why it matters:** Traditional NAS and self-hosted solutions require complex network configuration (port forwarding, dynamic DNS, VPN setup). Instant Connect eliminates this complexity entirely—users just log in and connect.
+
+**How users experience it:** Click to connect. It works from anywhere—home network, coffee shop, hotel, or halfway around the world. No technical knowledge required.
 
 ## Instant Connect Connectivity Procedure
-Instant Connect performs a series of attempts to connect the DASSET client application to the destination Data Hub using the user’s DASSET account credentials. Below is the connectivity procedure:
+Instant Connect automatically performs a series of connection attempts to find the fastest, most reliable path to your Data Hub:
 
-1.	Perform **LAN/WAN** detection to verify server reachability with the registered network addresses on the Instant Connect Server.
-2.	Attempt to establish a direct communication tunnel between the DASSET client application and the Data Hub using **Direct Link Technology (DLT)**.
-3.	In the event that the DLT tunnel fails to establish a connection, the **Instant Connect Relay Service** will provide alternate connectivity between the DASSET client application and the Data Hub.
+### Step 1: LAN/WAN Detection
 
-### LAN/WAN Detection
-When a client attempts to reach a DASSET Data Hub using the user’s DASSET account credentials, a request is sent to PlanetX Labs Instant Connect Server for the registered information of the Data Hub. This allows the client to obtain network information about the Data Hub to identify possible ways to connect it. The information includes the public IP, LAN IP, and NAT type among others, all of which are necessary for the link and do not compromise the security of the Data Hub. With the given information, the client can identify whether a direct connection with the IP or domain address can be established over LAN or WAN.
+**What happens:** When you try to connect, your DASSET app contacts PlanetX Labs Instant Connect servers with your credentials.
 
-### Direct Link Technology (DLT)
-If no direct local network connection can be established, the client will attempt to establish a virtual tunnel between the client and the Data Hub via Instant Connect to allow a temporary DLT link for data transmission. This technology allows the server and the client to experience Internet synchronization performance very similar to connecting via WAN IP/DDNS without physically having such an environment.
+**What the server does:**
 
-DLT works by initiating a virtual encrypted tunnel from the client to the DASSET Data Hub with the aid of the Instant Connect Server.
+* Looks up your Data Hub's registered network information  
+* Returns public IP address, local network IP, NAT type, and other connection details  
+* All information is necessary for connectivity and doesn't compromise security
+
+**What your app does:** Uses this information to determine the best connection method—local network (if you're home) or internet connection (if you're remote).
+
+**Why this step:** Fastest possible connection is always local network. Instant Connect checks for this first before trying internet-based methods.
+
+### Step 2: Direct Link Technology (DLT)**
+
+**What it is:** If local connection isn't available, DLT creates a direct encrypted tunnel between your device and your Data Hub over the internet.
+
+**How it works:**
+
+1. Your app requests virtual IP and public IP information from Instant Connect server  
+2. With server assistance, your app establishes direct encrypted tunnel to Data Hub  
+3. Once tunnel is established, all data flows directly between your device and hub  
+4. Session keys encrypt all network packets end-to-end
 
 <img src={require("./dlt-connection.png").default} style={{transform:'scale(.80)'}} />
 
-1.	When a client needs to access the Data Hub, the client sends a request to the Instant Connect Server to obtain the virtual IP address and public IP address of the Data Hub.
-2.	After receiving the network information of the destination Data Hub, the client will try to establish a DLT communication tunnel with the Data Hub with the help of the Instant Connect Server.
-3.	After the DLT direct communication tunnel is established, the client communicates with the Data Hub using a session key to implement encrypted network packet transmission. 
+**Why this matters:** Direct connections are nearly as fast as local network access. No data routes through intermediate servers—it goes straight from your device to your hub.
 
-With the DLT tunnel successfully established, the remote client uses this connection to communicate with the Data Hub directly and no network relay is needed.
+**Technical benefit:** Lowest latency, highest throughput. Best experience for streaming media, editing files, or transferring large amounts of data.
 
-### Instant Connect Relay Service
-In cases where the DLT virtual tunnel cannot be created, a relay service is available for data transmission. When traffic is relayed, it goes through a PlanetX Labs Relay Server before arriving at its destination. This requires more time compared to direct connections or DLT as the Instant Connect relay service serves as the final option for data to be communicated between the Data Hub and the client.
+### Step 3: Instant Connect Relay Service
 
-If the DLT fails to create a connection, the client will make one last connection attempt by creating a virtual network tunnel using the Instant Connect relay service. The service works as follows:
+**What it is:** Backup connectivity method when direct connection isn't possible due to restrictive networks or firewalls.
+
+**When it's used:** If local network detection fails AND Direct Link Technology can't establish a tunnel, Instant Connect automatically falls back to relay service.
+
+**How it works:**
+
+1. Your app sends relay request to Instant Connect server  
+2. Server enables relay function and begins forwarding encrypted data packets  
+3. Data flows: Your device → Relay Server → Your Data Hub (and vice versa)  
+4. If direct connection becomes possible later, system automatically switches back to DLT
 
 <img src={require("./relay-connection.png").default} style={{transform:'scale(.80)'}} />
 
-1.	The client sends a relay request for the destination Data Hub to the Instant Connect server.
-2.	The Instant Connect Server enables the relay function from the client to the Data Hub, and encrypted data packets are forwarded from the client to the Data Hub or vice versa from the Data Hub to the client on the Instant Connect Server.
+**Important notes:**
 
-In the event a DLT direct communication tunnel from the client to the Data Hub can be established, the client will re-select the DLT direct communication tunnel to exchange data with the Data Hub.  Communicating over the Relay Server can cause a significant delay in data delivery and is thus the last method a client will take in an attempt to reach the Data Hub.
+* All data is encrypted end-to-end—relay server can't read your data  
+* Relay adds some latency compared to direct connection  
+* Used as last resort for connectivity  
+* Still maintains full security and privacy
 
-## Instant Connect Security
-Even though Instant Connect provides convenient Data Hub management over the web, individuals and businesses can rest assured that all of their private data is protected at all times. In fact, PlanetX Labs goes to great lengths to ensure that the Data Hub server data, data transmissions, web portal, and even the data centers for the PlanetX Labs Instant Connect Servers are impeccably secured.
+**Why this matters:** Even in the most restrictive network environments, you can still access your data. Connection reliability is guaranteed.
 
-### Data Hub Information
-To enable the Instant Connect service, the PlanetX Labs Data Hub must be registered with the Instant Connect Server. This means the PlanetX Labs Data Hub reports its status, such as network environments and supported services, to the Instant Connect Server.
+## Security Architecture
 
-The reported information (i.e. the public IP address, LAN address, NAT type, etc.) is required for the connectivity procedure. PlanetX Labs safeguards users' digital privacy. The retrieved information is only used by PlanetX Labs in order to deliver the Instant Connect service.
+**Data Hub Information Privacy**
 
-### Relay Tunnel
-With the SDVN protocol enabled, data transmission over the network virtual tunnel is secured with end-to-end encryption. Encrypted data packets on the network cannot be hacked by any third party other than the client and Data Hub, including PlanetX labs.Therefore, Instant Connect guarantees confidentiality and integrity of data transmission between the PlanetX Labs Data Hub and client devices.
+**What gets reported:** To enable Instant Connect, your Data Hub registers with Instant Connect servers and reports its network status (public IP, local network address, NAT type, supported services).
 
-While providing the promised services, Instant Connect makes no use of collected data from registered PlanetX Labs Data Hub servers except in delivering such services. For more details, visit the Privacy Terms on our official website.
+**Why this information is needed:** Required for the connectivity procedure—helps your apps find and connect to your hub.
 
-### Facility Security
-PlanetX Labs Instant Connect Servers are hosted in data centers in a total of eight sites around the globe to provide high-quality and stable service. All data centers are staffed 24/7, guarded with surveillance systems and strict policies governing personnel access. Facilities are also well equipped to ensure power supply and network availability in the event of outage or preventable disasters.
+**Privacy protection:** This information is only used to deliver Instant Connect service. PlanetX Labs never accesses your actual data. We only see network metadata needed for connectivity.
+
+**End-to-End Encryption**
+
+**What it means:** Data transmission over network tunnels uses end-to-end encryption with SDVN protocol.
+
+**How it works:**
+
+* All data encrypted on your device before transmission  
+* Encrypted packets travel over network (direct or relay)  
+* Data decrypted only on receiving device (your hub or your device)
+
+**Security guarantee:** Encrypted data packets cannot be read by any third party—not network providers, not relay servers, not even PlanetX Labs. Only your devices have the decryption keys.
+
+**Technical specifications:**
+
+* Industry-standard encryption protocols  
+* Session-based keys for each connection  
+* Perfect forward secrecy  
+* Protection against man-in-the-middle attacks
+
+## Infrastructure Security
+
+**Data center security:**
+
+* Instant Connect servers hosted in 12 locations globally  
+* All facilities staffed 24/7  
+* Physical security: surveillance systems, strict access controls  
+* Redundant power and network for high availability  
+* Geographic distribution ensures service reliability
+
+**Operational security:**
+
+* Regular security audits and penetration testing  
+* Automated threat detection and response  
+* Compliance with industry security standards  
+* Transparent privacy policy and practices
+
+## Performance Characteristics
+
+**Connection priority (fastest to slowest):**
+
+1. **Local network:** Full LAN speed, zero latency overhead  
+2. **Direct Link Technology:** Near-local speed, minimal latency  
+3. **Relay Service:** Reduced speed, moderate latency
+
+**Automatic optimization:** System continuously monitors connection quality and switches to faster methods when available. Users don't manage this—it happens automatically.
+
+**User experience:** Regardless of connection method, users experience seamless access. The system handles all complexity in the background.
+
+## For OEMs: Why Instant Connect Matters
+
+**Eliminates barriers to adoption:** Traditional NAS devices have terrible connectivity stories. Users struggle with router configuration, dynamic DNS, VPN setup. Instant Connect eliminates all of this.
+
+**Reduces support burden:** No connectivity support tickets. No helping users configure routers. It just works.
+
+**Competitive advantage:** Most competitors require technical expertise for remote access. DASSET-powered devices work out of the box for anyone.
+
+**Cost included:** Global infrastructure included in your software license. No per-user fees, no infrastructure costs passed to your customers.
+
+**Market positioning:** "Works like the cloud" is compelling marketing message. Instant Connect makes this possible while maintaining complete privacy.
+
+## Summary: Key Technical Differentiators
+
+**For End Users**
+
+**Simple:** 15-minute setup, works like cloud storage **Private:** Data stays on your device, encrypted end-to-end **Smart:** AI-powered organization and search, all local **Accessible:** Connect from anywhere without configuration **Economical:** One-time purchase, no monthly fees
+
+**For OEMs**
+
+**Complete platform:** OS, apps, AI engine, global infrastructure included **Lower costs:** Reduced engineering and operational expenses **Market differentiation:** Privacy-first positioning captures growing market **Proven technology:** Battle-tested platform ready to deploy **Partner support:** Technical documentation, co-marketing, integration assistance
+
+**For Developers**
+
+**Open platform:** SDK for building AI agents and applications **Privacy-preserving:** Build on user-owned data **Rich capabilities:** Access to AI engine, storage, and sync services **Growing ecosystem:** Join partners building next-generation privacy-first solutions
