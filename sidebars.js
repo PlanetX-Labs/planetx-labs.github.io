@@ -35,17 +35,103 @@ const sidebars = {
         },
       ],
     },
+      //  {
+      // type: 'category',
+      // label: 'User Guide',
+      // items: [
+      //   {
+      //     type: 'doc',
+      //     id: 'user-guide/pc-mac'
+      //   },
+      //   {
+      //     type: 'doc',
+      //     id: 'user-guide/mobile'
+      //   },
         {
       type: 'category',
       label: 'User Guide',
       items: [
         {
-          type: 'doc',
-          id: 'user-guide/pc-mac'
-        },
-        {
-          type: 'doc',
-          id: 'user-guide/mobile'
+          type: 'category',
+          label: 'Windows & macOS',
+          items: [
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-introduction'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-installation'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-registration'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-device-list'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-adding-devices'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-disk-management'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-device-management'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-security-settings'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-node-configuration'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-member-management'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-file-management'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-file-operations'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-filessync-dedupe'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-applications'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-samba'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-notes'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-im'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-lite-nas'
+            },
+            {
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-client-settings'
+            },                                                      
+          ],
         },
       ],
     },
