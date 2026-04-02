@@ -119,7 +119,7 @@ When the device is offline, you can perform the following operations:
     * Demote an Administrator to regular member.
     * Remove a member.
 
-For detailed instructions, please refer to the [Member Management](#member-management) section.
+For detailed instructions, please refer to the Member Management section.
 
 ![](../pc-images/image22.png)
 
