@@ -24,13 +24,13 @@ If you forget your password, you can easily reset it on the DASSET login page by
 
 DASSET supports two registration methods: mobile phone number and email. To register, click the **Register** button on the login page and follow the instructions to complete the account setup.
 
+![alt text](../pc-images/image2.png)
+
 :::warning
 
 External security filters and aggressive ISP settings can occasionally intercept DASSET registration emails. If you have not received your Verification Code, please check your Spam folder.
 
 :::
-
-![alt text](../pc-images/image2.png)
 
 ## Password Reset
 

@@ -2,39 +2,41 @@
 sidebar_position: 15
 ---
 
-# Samba, DLNA & Time Machine
+# Network Discovery Services
 
-The DASSET device supports the Samba protocol. Once enabled, you can connect from a computer, smart TV, or other devices to access files stored on the DASSET device via Samba.
+## Samba
 
-1.  Enable or disable Samba protocol
-2.  Allow discovery of the Samba service on your DASSET device through LAN scanning
-3.  Current account: Samba login account
-4.  Alias: You can set an alias for Samba and use it later to log in
-5.  Password: Set the Samba login password
-6.  Set the access path: Define the directories on the DASSET device that are accessible through Samba
+DASSET supports the Samba protocol. Once enabled, you can connect from a computer, smart TV, or other devices to access files stored on the DASSET device via Samba.
 
 ![](../pc-images/image187.png)
+
+1.  Enable or disable Samba protocol
+2.  Allow discovery of the DASSET device from other devices on the local network
+3.  **Current account:** Samba login account
+4.  **Alias:** You can set an alias for Samba and use it later to log in
+5.  **Password:** Set the Samba login password
+6.  **Set the access path:** Specify the directories on the DASSET device that are accessible through Samba
 
 ### Windows Connection to Samba
 
 #### Access via Network Discovery
-When \" Visible in LAN Scan\" is enabled on Smart DAS, the device will appear automatically under the Network section in File Explorer. Simply double-click the DAS icon and enter your username and password to log in.
+When "Visible in LAN Scan" is enabled in DASSET, the device will appear automatically under the Network section in File Explorer. Simply double-click the DASSET device icon and enter your Samba username and password to log in.
 
 ![](../pc-images/image188.png)
 
 #### Map as a Network Drive
-1.  Open **File Explorer**, type `\\[DASSET device IP address\]`in the address bar, and press **Enter**.
+1.  Open **File Explorer**, type `\\DASSET_DEVICE_IP_ADDRESS\]`in the address bar, and press **Enter**.
 
 ![](../pc-images/image189.png)
 
-2.  When prompted, enter your **username** and **password**, then click **OK**.
+2.  When prompted, enter your Samba **username** and **password**, then click **OK**.
 
 ![](../pc-images/image190.png)
 
-3.  **Once authenticated, File Explorer** will display all folders accessible under your **DASSET account.**
-- **home:** Your personal space on Smart DAS.
-- **public:** The Public Space accessible to all users on Smart DAS.
-- **Other directories:** Shared Group Spaces that your account has joined on Smart DAS.
+3.  Once authenticated, File Explorer will display all folders accessible under your **DASSET account.**
+- **home:** Your My Space on the DASSET device.
+- **public:** The Public Space accessible to all users on the DASSET device.
+- **Other directories:** Shared Group Spaces that your account has joined on the DASSET device.
 
 ![](../pc-images/image191.png)
 
@@ -52,11 +54,11 @@ When \" Visible in LAN Scan\" is enabled on Smart DAS, the device will appear au
 
 ### macOS Connection to Samba
 
-1.  Open **Finder** **Go** **Connect to Server.**
+1.  Open **Finder**... **Go**... **Connect to Server.**
 
 ![](../pc-images/image195.png)
 
-2.  In the server address field, enter: `smb://Smart_DAS_IP_address` (The Samba application interface will display your current IP s address.)
+2.  In the server address field, enter: `smb://DASSET_DEVICE_IP_address` (The Samba application interface will display your current IP s address.)
 
 ![](../pc-images/image196.png)
 
@@ -78,9 +80,11 @@ When \" Visible in LAN Scan\" is enabled on Smart DAS, the device will appear au
 
 ## DLNA
 
-The DASSET device supports the DLNA protocol. Once enabled, your computer, mobile phone, smart TV, and other devices can discover this device and access its media files directly. When using DLNA for the first time, you must add a DLNA scan path. Only media files stored in the added paths will be accessible to other devices on the LAN.
+ DASSET device supports the DLNA protocol. Once enabled, your computer, mobile phone, smart TV, and other devices can discover this device and access its media files directly. When using DLNA for the first time, you must add a DLNA scan path. Only media files stored in the added paths will be accessible to other devices on the LAN.
 
-1.  Click Add.
+### Configuring DLNA
+
+1.  Click **Add**.
 
 ![](../pc-images/image200.png)
 
@@ -106,12 +110,12 @@ The DASSET device supports Apple's Time Machine feature. Once enabled, you can b
 
 ![](../pc-images/image204.png)
 
-1.  **Enable or disable Time Machine**. When enabled, your Apple device can connect to the DASSET device for data backup and recovery.
+1.  **Enable or disable Time Machine:** When enabled, your Apple device can connect to the DASSET device for data backup and recovery.
 2.  **Time Machine account:** The account used on your Mac to log in to the DASSET device for Time Machine backup.
 3.  **Alias:** You can set an alternate account alias to be used as the login credential for Time Machine.
 4.  **Password:** When enabling Time Machine for the first time, you must set a password for account authentication from your Mac.
 
-:::note
+:::important
 Apple Time Machine does not support the `@` symbol in account names.
 :::
 

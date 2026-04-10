@@ -6,7 +6,11 @@ sidebar_position: 16
 
 ## Overview
 
-Click the Note button to enter your private notes page:
+AI Notes is a note-taking application on DASSET that offers the ability to create text, voice and media notes.  Notes are stored on the DASSET device and can be accessed from any device running the DASSET application.
+
+Click the **Note** icon on the left navbar to enter the application.
+
+![](../pc-images/image244.png)
 
 1.  **Notebooks:** Create, rename, and delete notebooks.
 2.  **Note Display:** Shows all notes stored in the selected notebook.
@@ -18,8 +22,6 @@ Click the Note button to enter your private notes page:
 :::note
 Markdown syntax content can be copied directly into a note while retaining its original format.
 :::
-
-![](../pc-images/image244.png)
 
 ## Notebook Management
 
@@ -70,13 +72,16 @@ Notes support rich text editing as well as basic formatting:
 8.  Edit note title.
 9.  Edit note body.
 
-**Supported formats:**
-- Audio: mp3, wma, flac, wav, aac, ape, m4a, ogg
-- pc-images: gif, jpg, png, jpeg
-- Videos: avi, flv, mov, mkv, mp4, wmv
+#### Supported formats:
+- **Audio:** mp3, wma, flac, wav, aac, ape, m4a, ogg
+- **Images:** gif, jpg, png, jpeg
+- **Videos:** avi, flv, mov, mkv, mp4, wmv
 
 ### Right-Click Menu in Note Editor
 While editing a note, you can right-click to perform various actions:
+
+![](../pc-images/image252.png)
+
 1.  **Cut:** Remove selected content.
 2.  **Copy:** Copy selected content.
 3.  **Paste:** Insert copied content.
@@ -86,16 +91,15 @@ While editing a note, you can right-click to perform various actions:
 7.  **Summarize:** Use the AI Agent to generate a summary of selected content.
 8.  **Generate Blog:** Use the AI Agent to create blog-ready text from selected content.
 
-![](../pc-images/image252.png)
-
 ### Note Management from the List Page
 On the notes list page, you can right-click a note to perform the following actions:
+
+![](../pc-images/image253.png)
+
 1.  **Move To:** Move the note to another notebook.
 2.  **Top:** Pin the note at the top of the current notebook.
 3.  **Copy:** Copy the note to another notebook.
 4.  **Delete:** Remove the note.
-
-![](../pc-images/image253.png)
 
 ## Search
 Enter keywords in the search bar to quickly locate the notes you need.
@@ -153,7 +157,7 @@ AI can convert selected text into structured to-do items.
 
 ### Summarization
 AI can summarize selected text into concise content.
-1.  Highlight text, then **right-click  Summarize.**
+1.  Highlight text, then right-click **Summarize.**
 
 ![](../pc-images/image262.png)
 
@@ -196,7 +200,7 @@ This function supports speaker identification based on different voice tones. Ac
 
 ![](../pc-images/image267.png)
 
-### Example Use Case: Meeting Minutes
+### EXAMPLE USE CASE: Meeting Minutes
 By combining multiple AI Agent functions, you can create structured meeting summaries. Example workflow:
 1.  Insert the meeting recording file into a note.
 2.  Select Speech Recognition to transcribe the audio.

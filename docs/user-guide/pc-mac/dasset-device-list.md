@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Device List Page
 
-After completing the login process, you will enter the Device List Page. If you are accessing DASSET for the first time and have not yet added a new device, this page will blank.
+After completing the login process, you will enter the Device List Page. If you are accessing DASSET for the first time and have not yet added a new device, this page will be blank.
 
 On this page, a list of all available DASSET devices associated with your account will be displayed. From here, you can:
 - View connected devices and their status.
@@ -20,7 +20,7 @@ The Device List Page serves as the primary entry point for managing your DASSET 
 2.  **Device List**: Displays all devices bound to your account, including both your own devices and those shared with you by others. The list clearly shows whether each device is online or offline.
     - **Online/Offline status**
     - **Connect**: Click to access the selected device.
-    - **Node**: Click to use this DASSET device as a *relay node* for accessing the Internet. The node option only appears if the corresponding feature is enabled on the device. More details on the Node function can be found at [here](#node-configuration).
+    - **Node**: Click to use this DASSET device as a *relay node* for accessing the Internet. The node option only appears if the corresponding feature is enabled on the device. 
 3.  **Device List Shortcut Button**: Click this icon from anywhere in DASSET to return to the device list page.
 4.  **Notes**: Use DASSET's Notes feature to create, edit, and delete notes, while keeping them synchronized between your computer and DASSET devices.
 5.  **Notifications**: View device binding notifications here, including binding, unbinding, and binding requests.

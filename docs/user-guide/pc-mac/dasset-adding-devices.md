@@ -108,8 +108,8 @@ You can unbind from a device at any time. After unbinding, the device will no lo
 When the device is offline, you can perform the following operations:
 
 1.  **Device Information**
-- View basic device information, including device name, remarks (editable), device Owner, add time, and device SN.
-- Unbind from the device.
+    - View basic device information, including device name, remarks (editable), device Owner, add time, and device SN.
+    - Unbind from the device.
 
 ![](../pc-images/image21.png)
 

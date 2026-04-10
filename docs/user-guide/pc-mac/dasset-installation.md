@@ -17,8 +17,20 @@ Download](https://dassetai.ai/download/dasset.html)\]
 
 ## Multi-language Support
 
-DASSET currently supports Simplified Chinese, Traditional Chinese, and
-English.
+DASSET currently supports the following languages:
+
+- English
+- Simplified Chinese
+- Traditional Chinese
+- French
+- German
+- Italian
+- Arabic
+- Russian
+- Japanese
+- Korean
+- Thai
+- Vietnamese 
 
 ## Installation and Execution
 
