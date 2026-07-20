@@ -106,58 +106,8 @@ const sidebars = {
               id: 'user-guide/pc-mac/dasset-filessync-dedupe'
             },
             {
-              type: 'category',
-              label: 'Applications',
-              items: [
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-groupspace'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-task-center'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-my-favorites'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-external-storage'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-recycle-bin'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-offline-download'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-my-shares'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-my-vault'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-lite-nvr'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-container-tool'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-online-document'
-                },
-                {
-                  type: 'doc',
-                  id: 'user-guide/pc-mac/dasset-applications-cloud-drive'
-                },
-              ],
+              type: 'doc',
+              id: 'user-guide/pc-mac/dasset-applications'
             },
             {
               type: 'doc',

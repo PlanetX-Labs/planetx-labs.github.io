@@ -22,6 +22,7 @@ DASSET currently supports the following languages:
 - English
 - Simplified Chinese
 - Traditional Chinese
+- Spanish
 - French
 - German
 - Italian

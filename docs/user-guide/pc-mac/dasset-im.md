@@ -85,23 +85,35 @@ In DASSET IM, you can chat one-on-one or create group chats with users connected
     - **Pin** the conversation
     - **Mute Notifications**
     - **Delete** the conversation
+  
 ![](../pc-images/image280.png)
+
 2.  **Chat Window:** Displays the conversation history.
 3.  **Input Box:** Supports text input and pasting pc-images. Also supports sending long text and Markdown-formatted content. Messages exceeding 5000 characters will be automatically converted into a file for sending.
 4.  **Emojis:** Insert emojis into your messages.
-5.  **Local Attachments:** Send files stored on your computer.
-6.  **Voice Messages:** Record and send voice messages.
-7.  Send files from the "My Space" on the DASSET device that hosts the current IM chat server.
-8.  Send files from the "Public Space" on the DASSET device that hosts the current IM chat server.
-9.  Send files from the "Group Space" on the DASSET device that hosts the current IM chat server.
-10. **Send Message:** Deliver the composed chat message.
-11. **Chat Information Panel:** View and manage details of the chat partner or group:
+5.  **Screenshot:** Takes a screenshot for insertion into your chat. 
+7.  **Local Attachments:** Send files stored on your computer.
+8.  **Voice Messages:** Record and send voice messages.
+9.  Send files from the "My Space" on the DASSET device that hosts the current IM chat server.
+10. Send files from the "Public Space" on the DASSET device that hosts the current IM chat server.
+11. Send files from the "Group Space" on the DASSET device that hosts the current IM chat server.
+12. **Send Message:** Deliver the composed chat message.
+13. **Voice Call:** Initiates a voice call with the participant(s) of the chat.
+14. **Video Call:** Initiates a video call with the participant(s) of the chat.
+15. **Chat Information Panel:** View and manage details of the chat partner or group:
     - View avatar
     - View nickname
     - Edit remarks
     - Pin the conversation
     - Mute the conversation
-    - **Delete Conversation**: Permanently remove the chat from your view. Deleting a conversation removes all records from your side. Even if you start a new chat, previous messages will not be visible. However, the recipient's chat history will still remain intact.
+    - **Delete Conversation**: Permanently remove the chat from your view. 
+    
+    :::warning
+    
+     Deleting a conversation removes all records from your side. Even if you start a new chat, previous messages will not be visible. However, the recipient's chat history will still remain intact.
+
+    :::
+
 ![](../pc-images/image281.png)
 
 ## Chat Message Interactions
@@ -109,18 +121,25 @@ In DASSET IM, you can chat one-on-one or create group chats with users connected
 In the chat window, you can right-click on historical chat records to perform the following actions:
 1.  **Quote**: Reply to a specific message by quoting it.
 2.  **Copy**: Copy the content of the selected message.
-3.  **Forward**: Forward the message to another user.
-4.  **Multi-Select**: Select multiple messages for combined forwarding or deletion.
-5.  **Save to NAS**: Save attachments from the chat directly to your DASSET device.
-6.  **Download**: Download attachments to your local computer.
-7.  **Emoji**: Respond to a message with an emoji.
-8.  **Recall**: Withdraw a message you sent.
-9.  **Delete**: Delete selected messages.
+3.  **Image Recognition**: Supports AI integration to analyze and interpret the content of images.
+4.  **Text Recognition (OCR)**: Supports AI-powered automatic identification and extraction of text from images.
+5.  **Speech Recognition**: The AI Agent automatically recognizes voice messages and converts them into text output.
+6.  **Forward**: Forward the message to another user.
+7.  **Multi-Select**: Select multiple messages for combined forwarding or deletion.
+8.  **Save to NAS**: Save attachments from the chat directly to your DASSET device.
+9.  **Save to Notes**: Save single or multiple chat messages directly to your notes. A new note containing the selected messages will be automatically created.
+10. **Open in**: Open selected chat messages in the built-in Markdown editor for viewing and editing.
+11. **Download**: Download attachments to your local computer.
+12. **Emoji**: Respond to a message with an emoji.
+13. **Recall**: Withdraw a message you sent.
+14. **Delete**: Delete selected messages.
     :::warning
         Deletion only removes the message from the current terminal. If you log in from another terminal, the deleted message will still be visible. To ensure the message is removed from all terminals and the recipient, use Recall instead.
     :::
-10. **Open**: Preview attachments directly if supported.
-11. **URL Links:** If a chat message contains a URL, clicking it will open the link in your browser.
+15. **Open**: Preview attachments directly if supported.
+16. **Online Editing**: Access and edit Word, PDF, Excel, and PPT documents online via third-party Office applications installed on your DASSET device. Note: This feature is only available on supported device models.
+17. **URL Links:** If a chat message contains a URL, clicking it will open the link in your browser.
+
 ![](../pc-images/image282.png)
 
 ## One-on-One Chat
