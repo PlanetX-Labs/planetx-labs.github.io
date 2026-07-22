@@ -444,6 +444,41 @@ Managing a list of to-do tasks can be made easier by searching, filtering and so
 
 ![](../pc-images/dasset-chat-group-todo-search.png)
 
+#### Completing To-do Tasks
+
+When a task is finished, the assignee can click the task in the Group To-Do list or the notification in the chat window to open the details and mark it as done:
+
+![](../pc-images/dasset-chat-group-todo-complete.png)
+
+* **Complete To-Do:** Confirms the entire task is finished. The task status in the group list will change to **Completed**.
+* **Completed by Me Only:** Use this if the overall task is ongoing but your specific portion of the work is finished.
+
+![](../pc-images/dasset-chat-group-todo-complete1.png)
+
+### Group Chat Permissions
+
+Granular permissions can be set for members of the group by clicking **Permission Management** under **Group Chat Permissions**.
+
+![](../pc-images/dasset-chat-group-permissions.png)
+
+**Configurable Permissions:**
+* **@All Permissions:** Controls who can use the @all mention.
+* **Announcement Management:** Controls who can post or manage group announcements.
+* **To-Do Management:** Controls who can create or manage group tasks.
+
+**Available Roles for Each Permission:**
+* **Owner Only:** Only the group creator has authority.
+* **Owner & Administrators:** Both the creator and appointed admins have authority.
+* **All Members:** Everyone in the group can perform the action.
+
+![](../pc-images/dasset-chat-group-permission-management.png)
+
+### Automatic Chat Translation
+
+You can enable the **Auto-Translate** feature within any chat conversation. Once activated, the AI Agent will automatically translate all incoming and outgoing messages into your specified language.
+
+![](../pc-images/dasset-chat-group-translate.png)
+
 ### Pin Group Chat
 Group chats can be pinned to the top of the list of chats by enabling **Top** in the group chat settings.
 ![](../pc-images/image294.png)
@@ -464,20 +499,69 @@ Any group member can exit the group at any time:
 2.  After leaving, you will no longer receive messages from that group.
 ![](../pc-images/image297.png)
 
-### Group Files
-Files shared in a group chat can be centrally managed through the **Group Files** feature. Click **...  Group Files** to view all files sent within the group chat.
-![](../pc-images/image298.png)
-In **Group Files**, you can:
-1.  **View File List:** Includes file name, size, upload date, uploader, and available actions.
-2.  **File Operations:**
-    - **Download** (all members): Save the file to the local device.
-    - **Forward** (all members): Forward the file to another chat session.
-    - **Delete** (group Owner and uploader only): Only the group creator or the original uploader can delete files from Group Files.
-    - **Save To** (all members): Save the file to your personal NAS space associated with IM.
-    - **Rename** (group Owner only): Change the file name.
-3.  **Upload Local File:** Select files from your local device to upload into Group Files. Note: After uploading, a file message will automatically be sent to the group chat.
-4.  **Upload NAS File:** Select files from your NAS to upload into Group Files. Note: After uploading, a file message will automatically be sent to the group chat.
-![](../pc-images/image299.png)
+### Scheduled Meetings
+Scheduled meetings can be enabled in a group chat.
+
+You can schedule a meeting in advance and invite specific users to join. Before the meeting starts, invited users can join the meeting directly, making it easier to arrange meeting times.
+
+* Create a meeting
+* Close a meeting
+* Search the meeting list by keyword
+
+#### Create a Scheduled Meeting
+
+1.	Enter the group chat screen, then click the **Scheduled Meeting** button in the upper-right corner > **Create Meeting**.
+
+![](../pc-images/dasset-chat-group-scheduled-meeting.png)
+
+2.	In the scheduled meeting editing window, you can configure the following settings:
+
+![](../pc-images/dasset-chat-group-schedule-meeting.png)
+
+* **Meeting Name:** Enter the meeting name or subject.
+* **Start Time:** Set the meeting start time.
+* **Duration:** Set the meeting duration.
+* **Call Type:** Video meeting or audio meeting.
+* **Allow Participants to Join Early:** Specify how long before the scheduled start time participants are allowed to join.
+* **Meeting Reminder:** Before enabling this option, a group administrator must first enable system notifications for the group chat.
+
+![](../pc-images/dasset-chat-group-scheduled-meeting-reminder.png)
+
+After meeting reminders are enabled, an automatic reminder message will be sent in the group chat shortly before the meeting starts.
+
+* **Custom Participants:** Select the group members to invite to the meeting. Users who are not selected will not be able to join the meeting.
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-custom-participants.png)
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-participants.png)
+
+3.	After the meeting is created, a scheduled meeting record will appear in the scheduled meeting list. The meeting organizer will also automatically send a scheduled meeting notification message in the group chat.
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-notification.png)
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-list.png)
+
+#### Join a Scheduled Meeting
+
+There are several ways to join a scheduled meeting:
+1.	In the scheduled meeting window, view the list of current scheduled meetings and click a meeting to join it.
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-ways2join.png)
+
+2.	In the chat history, click a scheduled meeting card sent by a user or a meeting notification card to join the meeting.
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-join.png)
+
+#### Close a Scheduled Meeting
+
+The meeting organizer can close a scheduled meeting that has already been created.
+Click the scheduled meeting card or select the meeting from the scheduled meeting list. In the meeting details window, click **Close Meeting**.
+
+![alt text](../pc-images/dasset-chat-group-scheduled-meeting-close.png)
+
+After the meeting is closed, its status in the meeting list will be displayed as **Canceled**.
+
+A canceled meeting cannot be joined again.
 
 ## IM AI Agent
 
