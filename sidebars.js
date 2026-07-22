@@ -168,8 +168,34 @@ const sidebars = {
               id: 'user-guide/pc-mac/dasset-notes'
             },
             {
-              type: 'doc',
-              id: 'user-guide/pc-mac/dasset-im'
+              type: 'category',
+              label: 'Instant Messaging',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'user-guide/pc-mac/dasset-im-select-server'
+                },
+                {
+                  type: 'doc',
+                  id: 'user-guide/pc-mac/dasset-im-interface-overview'
+                },
+                {
+                  type: 'doc',
+                  id: 'user-guide/pc-mac/dasset-im-calls'
+                },
+                {
+                  type: 'doc',
+                  id: 'user-guide/pc-mac/dasset-im-1-on-1-chat'
+                },
+                {
+                  type: 'doc',
+                  id: 'user-guide/pc-mac/dasset-im-group-chat'
+                },
+                {
+                  type: 'doc',
+                  id: 'user-guide/pc-mac/dasset-im-ai-agent'
+                },
+              ],
             },
             {
               type: 'doc',
