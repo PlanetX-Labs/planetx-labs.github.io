@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Instant Messaging (IM)
 
-DASSET IM is a private chat tool running directly on the DASSET device. It provides fully private instant messaging, with all chat data stored on the DASSET device. Communications are transmitted using encryption to ensure privacy and security.
+DASSET IM is a fully private messaging application that runs and stores data on your DASSET device.  It provides text chat capabilities, as well as real-time translation of multiple languages, and provides voice and video call capabilities as well.  Additionally, private groups can be created enabling the ability to easily share files with the group as well a create shared task lists complete with priorities and due dates.
 
 The DASSET IM feature supports the following operations:
 1.  **Quote**: Reply to a specific message by quoting it.
@@ -22,7 +22,7 @@ The DASSET IM feature supports the following operations:
 When using DASSET IM for the first time, you must select a DASSET device to act as your **chat server**. Once selected, you can freely chat with all users connected to that device, and all chat history will be stored on the same server. Each chat server runs on a single DASSET device. All users bound to that device can communicate with each other through the server.
 
 - **Note 1**: To protect user privacy, DASSET does not automatically create chat server accounts for all users bound to a device. If users on the same device want to chat with each other, they must first select the same chat server.
-- **Note 2**: Each chat server is independent. Think of it as having a WeChat server hosted in your home or office. Only users connected to the same server can communicate. DASSET users on different servers cannot chat with each other.
+- **Note 2**: Each chat server is independent. Think of it as having a private WhatsApp server hosted in your home or office. Only users connected to the same server can communicate. DASSET users on different servers cannot chat with each other.
 - **Note 3**: Cross-server instant messaging is not supported. Accounts connected to different chat servers cannot communicate across devices.
 
 When you first enter the chat interface, DASSET displays all the DASSET devices bound to your account and prompts you to select one as your chat server. If a device does not support the chat application, you will see a red message stating **This device does not support chat services**. This usually occurs because the device firmware has not been updated to the latest version or the hardware is not capable of running chat services. A single account can bind to multiple chat servers, but you can only be connected to one chat server at a time. Chatting is limited to users on that active server.
@@ -114,7 +114,7 @@ In DASSET IM, you can chat one-on-one or create group chats with users connected
 
     :::
 
-![](../pc-images/image281.png)
+![](../pc-images/dasset-chat-window.png)
 
 ## Chat Message Interactions
 
@@ -141,6 +141,113 @@ In the chat window, you can right-click on historical chat records to perform th
 17. **URL Links:** If a chat message contains a URL, clicking it will open the link in your browser.
 
 ![](../pc-images/image282.png)
+
+### Open in Reader
+You can select a chat message (sent by yourself or others), right-click, and select Open in Reader. DASSET will automatically open the message using its built-in Markdown editor.
+
+In the built-in reader, you can:
+* **Read:** View the content in a clean, formatted layout.
+* **Edit:** Modify the text as needed.
+* **Save to Device:** Save the message as a .md file directly to your DASSET device.
+* **Forward to IM:** Send the generated Markdown file to other chat contacts.
+* **Open with Local App:** Open the file using other Markdown editors installed on your computer.
+
+![](../pc-images/dasset-chat-options.png)
+
+**Editing Mode:** To edit the Markdown file, click the Edit icon in the top right corner. The editor includes the following features:
+* Set hierarchical Headings.
+* Standard text formatting: Bold, Italic, Strikethrough, and Numbered Lists.
+* Insert Code Blocks, Image URLs, and Hyperlinks.
+* Create Task Lists.
+* Once finished, click Done to preview the modified file.
+
+![](../pc-images/dasset-chat-editmode.png)
+
+### Save to Notes
+You can select one or multiple messages and save them directly to your personal notes.
+* **Operation:** After selecting the messages, click **Save to Notes**.
+
+![](../pc-images/dasset-chat-savetonotes.png)
+
+* **Auto-Redirect to Notes:** The application will automatically jump to the **Notes** interface and generate a new entry.
+
+![](../pc-images/dasset-chat-openinnotes.png)
+
+* **View Details:** Click on the chat history window within the note to view the specific content of the saved messages.
+
+![](../pc-images/dasset-chat-viewdetails.png)
+
+### Online Editing
+The IM module supports online editing for document attachments. You can access this by right-clicking a file and selecting the **Online Editing** function.
+* **Supported Formats:** View and edit common document types, including .docx, .pptx, and .xlsx.
+* **Markdown Files:** For .md files, simply double-click the file within the chat to preview or edit it directly.
+* **File Saving:** After editing, changes are automatically saved to the local file downloaded on your terminal.
+Note: Editing a file will not modify the original source file already sent in the chat history.
+
+:::info
+
+Editing a file will not modify the original source file already sent in the chat history.
+
+:::
+
+## Voice & Video Calls
+In addition to text-based messaging, the IM module supports high-quality voice and video calls. You can initiate a call within a one-on-one private chat or a group conversation.
+* **One-on-One Calls:** **Supports private voice or video sessions.
+* **Group Calls:** Supports multi-user voice or video conferencing.
+
+Call Features:
+
+* **Voice Calls:** The camera is **disabled by default**.  You can choose to turn on your camera at any point during the conversation.
+* **Video Calls:** The camera is **enabled by default**. You have the option to turn off your camera at any time during the call. 
+
+### Initiating a Voice/Video Call
+
+1. Open a chat window and click on the **Voice Call** or **Video Call** icon in the top-right corner of the screen.
+
+![](../pc-images/dasset-chat-initiate-call.png)
+
+2. The system will enter the **Calling Interface**.
+
+![](../pc-images/dasset-chat-call-interface.png)
+
+3. Once the other party (or parties) accepts the invitation, you will enter the **Voice/Video Call Interface**.
+
+### Voice/Video Call Features
+
+Inside the call interface, the following functions are available:
+1.	**Participant View:** Displays the list of people in the call. You can toggle between List View and Grid View (using button ⑥).
+2.	**Member Count:** Shows the total number of participants currently in the call.
+3.	**Mute/Unmute:** Enable or disable your microphone.
+4.	**Camera Toggle:** Turn your camera on or off.
+5.	**Screen Sharing:** Share your screen with other participants. You can choose to share a specific application window or your entire screen.
+6.	**Layout Switch:** Toggle the display layout between List and Grid modes.
+7.	**Leave:** Exit the current session.
+        * **One-on-one calls:** Clicking "Leave" will end the call for both parties.
+        * **Group calls:** Clicking "Leave" only removes you from the call while others continue.
+
+![](../pc-images/dasset-chat-in-call-interface.png)
+
+### Screen Sharing
+
+During a voice or video call, you can click the **Screen Share** button ⑤ at any time to share your terminal's screen.
+
+You can choose from the following sharing modes:
+* **Window:** Select a specific application window from your currently open programs to share. Only the selected program interface will be visible to others.
+* **Entire Screen:** Selecting this option will broadcast your terminal's complete desktop screen to all other participants in the call.
+
+![](../pc-images/dasset-chat-screen-share.png)
+
+### Answering Voice/Video Calls
+
+When a friend sends a voice or video call invitation, a call notification will appear at the top of the DASSET interface. You can choose to either **Answer** or **Decline** the call.
+
+![](../pc-images/dasset-chat-answering-calls.png)
+
+### Joining a Group Call
+
+If a call is initiated within a group you belong to, a status indicator will appear within the **Group Chat** window. Click the **Join** button to enter the ongoing group call at any time.
+
+![](../pc-images/dasset-chat-group-window.png)
 
 ## One-on-One Chat
 
@@ -189,12 +296,156 @@ You can manage group members at any time, including viewing, adding, or removing
 3.  Select **Remove Member** to remove a participant from the group. Only the group creator can remove members.
 ![](../pc-images/image292.png)
 
+### Set Group Member Remarks
+You can set personalized remarks for members of the group within a group chat, making it easier to identify participants.
+![](../pc-images/dasset-chat-group-member-remarks.png)
+
+### Group Administrator Settings
+Group owners can appoint **Group Administrators** to assist in managing the chat as the number of participants grows.
+
+* **Permissions:** The specific management rights and authorities of a Group Administrator are configured via the **Group Chat Permissions** function.
+
+![](../pc-images/dasset-chat-group-administrator-settings.png)
+
 ### Change Group Name
 The group creator can rename the group for easier identification. Click the edit icon next to the group name to enter a new name.
 ![](../pc-images/image293.png)
 
+### Group Notice
+Group notices are specially formatted messages that are sent to all group members in the group chat that can be used for announcements or other items that require all member's attention.  More than one group notice can be present in a group chat and additionally group notices can be "pinned" to the chat if desired.
+
+![](../pc-images/dasset-chat-group-notice.png)
+
+#### Creating a Group Notice
+
+1. Click the **Group Notice## icon or section within the group settings.
+
+![](../pc-images/dasset-chat-create-group-notice.png)
+
+2. Click the **+** icon
+
+![](../pc-images/dasset-chat-create-group-notice-plus.png)
+
+3. Enter a **Title**, which will be a large font in the announcement, other details will be standard text format unless you choose to do special formatting by accessing the format toolbar.
+
+![](../pc-images/dasset-chat-group-notice-details.png)
+
+4. Clicking **Publish** will post the group notice in the chat in addition to notifying all all group chat members.
+
+#### Viewing Group Notices
+
+Enter the **Group Notice** section to view all currently published notices.  The ability to see which members have read or "liked" the notice are available, in addition to the ability to edit the contents of the notice.
+
+![](../pc-images/dasset-chat-group-notice-review.png)
+
+#### Editing Group Notices
+
+Within the Group Announcement list, click the **Edit** icon to modify the content of a previously published announcement.
+
+![](../pc-images/dasset-chat-group-notice-edit.png)
+
+#### Pinning and Deleting Group Notices
+
+In the announcement list, click the ellipsis (three dots) icon to perform the following actions:
+
+![](../pc-images/dasset-chat-group-notice-ellipsis.png)
+
+* Pinned announcements are displayed prominently at the very top of the group chat window.
+  * Multiple announcements can be pinned simultaneously.
+  * Group members can click the **X** button to hide a specific pinned announcement from their view.
+* Delete Group Notice permanently removes the notice from the group chat.
+
+### Group Apps
+
+You can add specialized applications to a group chat to extend its functionality and provide more collaborative tools.  
+
+Click **Manage** under the Group Apps section to add or remove available Group Apps.
+
+![](../pc-images/dasset-chat-group-apps.png)
+
+The following Group Apps are currently available for use
+
+* **Group Files:** Provides a dedicated space to manage and share files within the group.
+* **To-do:** Provides a collaborative tracking task manager for members of the group.
+
+By clicking the **+** or **-** icon next to the group app adds or removes the application (respectively) for use by the group.
+
+#### Group Files
+
+Files sent within a group chat can be centrally managed through the **Group Files** feature.  To access Group Files, click the ellipsis in the Group settings and click on **Group Files**
+
+![](../pc-images/dasset-chat-group-files.png)
+
+Within the **Group Files** application, you can perform the following actions:
+
+![](../pc-images/dasset-chat-group-files-actions.png)
+
+1.	**File List View:** View detailed information for all shared files, including File Name, Size, Upload Date, and the Uploader's identity.
+2.	**File Operations:**
+    * **Download (All Members):** Save the file directly to your local computer or device.
+    * **Forward (All Members):** Share the file with other contacts or group chats.
+    * **Delete (Creator & Uploader Only):** To maintain data security, only the Group Creator or the original file uploader has the authority to delete files from the Group Files list.
+    * **Save to NAS (All Members):** Users can click "Save" to transfer the file directly to their Personal Space on the current NAS.
+    * **Rename (Group Creator Only):** The group creator has the authority to modify file names for better organization.
+3.	**Upload Local Files:** Select files from your local terminal to upload to the group.
+Note: Once uploaded, a file message will be automatically generated and sent to the group chat for all members to see.
+4.	**Upload NAS Files:** Directly select files stored on your NAS to share with the group.
+
+:::info
+
+Similar to local uploads, sharing a NAS file will automatically post a notification message in the group chat.
+
+:::
+
+### To-do
+
+The Group To-do feature allows you to convert an existing chat message into a task or create a brand-new to-do item directly within the application.
+
+#### Converting Group Messages to To-do Tasks
+
+You can quickly turn important chat content into actionable tasks by right-clicking on a message and select **Convert to To-Do**.
+
+![](../pc-images/dasset-chat-group-todo-convert.png)
+
+In the To-do task creation window, you can perform the following:
+
+1. **AI Organization:** Invoke AI models to analyze the message and automatically generate a summarized title and description.
+2. **Title:** Manually enter or edit the task title.
+3. **Description:** Provide specific details or notes for the task.
+4. **Assignees:** Assign the task to specific group members (multiple assignees supported).
+5. **Deadline:** Set a due date and time for task completion.
+6. **Priority:** Set the task urgency level to Urgent, High, Medium, or Low.
+7. **Attachments:** Attach relevant files from your local terminal or DASSET device.
+
+![](../pc-images/dasset-chat-group-todo-creation.png)
+![](../pc-images/dasset-chat-group-todo-priority.png)
+
+Once configured, click **Create To-do**.  Once created, a to-do notification will be posted in the chat to inform the group.  The newly created task will appear in the **Group To-do list** for centralized tracking.
+
+![](../pc-images/dasset-chat-group-todo-completed.png)
+
+#### Creating New To-do Tasks
+
+When creating a new to-do task, simply click the **+New** button which brings-up the same creation interface as described above when converting a message to a to-do task.
+
+#### To-do Management
+
+Managing a list of to-do tasks can be made easier by searching, filtering and sorting:
+
+1.	**Search:** Quickly locate tasks using keywords.
+2.	**Status Filter:** Filter tasks by All, Completed, or Incomplete.
+3.	**New Task:** Direct entry point to create a new task.
+4.	**Assignee Filter:** Toggle between viewing All Assignees or tasks where "I am the Assignee."
+5.	**Sorting:** Sort tasks by Creation Time, Priority, or Deadline.
+6.	**Starred:** Filter to view only tasks marked with a star.
+7.	**Task List:** Displays titles, assignees, priority levels, deadlines, and completion status.
+8.	**Add Star:** Mark specific tasks as important.
+9.	**Delete:** Remove a to-do item permanently.
+
+![](../pc-images/dasset-chat-group-todo-search.png)
+
 ### Pin Group Chat
-Enable **Top** to keep the group chat at the top of the chat list.
+Group chats can be pinned to the top of the list of chats by enabling **Top** in the group chat settings.
 ![](../pc-images/image294.png)
 
 ### Mute Notifications
